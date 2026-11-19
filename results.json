@@ -1,0 +1,48 @@
+{
+  "config": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "lr": 0.0002,
+    "epochs": 3,
+    "batch": 8,
+    "grad_accum": 2
+  },
+  "targets": [
+    "q_proj",
+    "k_proj",
+    "v_proj",
+    "o_proj",
+    "gate_proj",
+    "up_proj",
+    "down_proj"
+  ],
+  "train_minutes": 1.4,
+  "peak_gpu_gb": 6.49,
+  "base": {
+    "n": 100,
+    "valid_json": 1.0,
+    "exact_match": 0.13,
+    "acc_amount": 0.98,
+    "acc_category": 0.27,
+    "acc_merchant": 0.8,
+    "acc_payment": 0.47,
+    "exact_match_by_style": {
+      "seen": 0.1,
+      "unseen": 0.16
+    }
+  },
+  "finetuned": {
+    "n": 100,
+    "valid_json": 1.0,
+    "exact_match": 0.99,
+    "acc_amount": 0.99,
+    "acc_category": 1.0,
+    "acc_merchant": 1.0,
+    "acc_payment": 1.0,
+    "exact_match_by_style": {
+      "seen": 1.0,
+      "unseen": 0.98
+    }
+  }
+}

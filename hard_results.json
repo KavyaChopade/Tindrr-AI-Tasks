@@ -1,0 +1,304 @@
+{
+  "base": {
+    "exact_match": 0.16,
+    "n": 25,
+    "failures": [
+      {
+        "input": "Paid KFC 450 by GPay",
+        "gold": {
+          "amount": 450,
+          "category": "food",
+          "merchant": "KFC",
+          "payment": "upi"
+        },
+        "raw_output": "{\n  \"amount\": 450,\n  \"category\": \"food\",\n  \"merchant\": \"KFC\",\n  \"payment\": \"GPay\"\n}"
+      },
+      {
+        "input": "Paid two thousand rupees to Airtel through UPI",
+        "gold": {
+          "amount": 2000,
+          "category": "bills",
+          "merchant": "Airtel",
+          "payment": "upi"
+        },
+        "raw_output": "{\n  \"amount\": 2000,\n  \"category\": \"transport\",\n  \"merchant\": \"Airtel\",\n  \"payment\": \"UPI\"\n}"
+      },
+      {
+        "input": "IndiGo ticket 5800 rupees paid via debit card",
+        "gold": {
+          "amount": 5800,
+          "category": "transport",
+          "merchant": "IndiGo",
+          "payment": "card"
+        },
+        "raw_output": "{\n  \"amount\": 5800,\n  \"category\": \"transport\",\n  \"merchant\": \"IndiGo\",\n  \"payment\": \"debit\"\n}"
+      },
+      {
+        "input": "Zee5 subscription 299 paid with PhonePe",
+        "gold": {
+          "amount": 299,
+          "category": "entertainment",
+          "merchant": "Zee5",
+          "payment": "upi"
+        },
+        "raw_output": "{\n  \"amount\": 299,\n  \"category\": \"food\",\n  \"merchant\": \"PhonePe\",\n  \"payment\": \"cash\"\n}"
+      },
+      {
+        "input": "Medplus 180 cash",
+        "gold": {
+          "amount": 180,
+          "category": "health",
+          "merchant": "Medplus",
+          "payment": "cash"
+        },
+        "raw_output": "{\n  \"amount\": 180,\n  \"category\": \"food\",\n  \"merchant\": \"Medplus\",\n  \"payment\": \"cash\"\n}"
+      },
+      {
+        "input": "Bought shoes on Myntra for 1k via UPI",
+        "gold": {
+          "amount": 1000,
+          "category": "shopping",
+          "merchant": "Myntra",
+          "payment": "upi"
+        },
+        "raw_output": "{\n  \"amount\": 1000,\n  \"category\": \"shopping\",\n  \"merchant\": \"Myntra\",\n  \"payment\": \"UPI\"\n}"
+      },
+      {
+        "input": "Rs 75.5 to Metro, cash",
+        "gold": {
+          "amount": 75.5,
+          "category": "transport",
+          "merchant": "Metro",
+          "payment": "cash"
+        },
+        "raw_output": "{\"amount\":75.5,\"category\":\"food\",\"merchant\":\"\",\"payment\":\"cash\"}"
+      },
+      {
+        "input": "upi payment of 3,499 to Croma",
+        "gold": {
+          "amount": 3499,
+          "category": "shopping",
+          "merchant": "Croma",
+          "payment": "upi"
+        },
+        "raw_output": "{\n  \"amount\": 3499,\n  \"category\": \"transport\",\n  \"merchant\": \"Croma\",\n  \"payment\": \"upi\"\n}"
+      },
+      {
+        "input": "Apollo Pharmacy bill 1250 paid by card, 20% discount applied",
+        "gold": {
+          "amount": 1250,
+          "category": "health",
+          "merchant": "Apollo Pharmacy",
+          "payment": "card"
+        },
+        "raw_output": "{\n  \"amount\": 1250,\n  \"category\": \"bills\",\n  \"merchant\": \"Apollo Pharmacy\",\n  \"payment\": \"card\",\n  \"discount\": 20,\n  \"category\": \"food\"\n}"
+      },
+      {
+        "input": "Spent ₹5000 on Decathlon (credit card) last Tuesday at 6pm",
+        "gold": {
+          "amount": 5000,
+          "category": "shopping",
+          "merchant": "Decathlon",
+          "payment": "card"
+        },
+        "raw_output": "{\n  \"amount\": 5000,\n  \"category\": \"food\",\n  \"merchant\": \"Decathlon\",\n  \"payment\": \"cash\"\n}"
+      },
+      {
+        "input": "bhai Domino's ko 399 diye GPay se",
+        "gold": {
+          "amount": 399,
+          "category": "food",
+          "merchant": "Domino's",
+          "payment": "upi"
+        },
+        "raw_output": "{\n  \"amount\": 399,\n  \"category\": \"food\",\n  \"merchant\": \"Domino's\",\n  \"payment\": \"GPay\"\n}"
+      },
+      {
+        "input": "Vi recharge 239 through PhonePe",
+        "gold": {
+          "amount": 239,
+          "category": "bills",
+          "merchant": "Vi",
+          "payment": "upi"
+        },
+        "raw_output": "{\n  \"amount\": 239,\n  \"category\": \"bills\",\n  \"merchant\": \"PhonePe\",\n  \"payment\": \"cash\"\n}"
+      },
+      {
+        "input": "Tata Power electricity bill Rs 1840 debit card",
+        "gold": {
+          "amount": 1840,
+          "category": "bills",
+          "merchant": "Tata Power",
+          "payment": "card"
+        },
+        "raw_output": "{\n  \"amount\": 1840,\n  \"category\": \"bills\",\n  \"merchant\": \"Tata Power\",\n  \"payment\": \"debit card\"\n}"
+      },
+      {
+        "input": "PVR tickets cost ₹760 paid via UPI",
+        "gold": {
+          "amount": 760,
+          "category": "entertainment",
+          "merchant": "PVR",
+          "payment": "upi"
+        },
+        "raw_output": "{\n  \"amount\": 760,\n  \"category\": \"transport\",\n  \"merchant\": \"UPI\",\n  \"payment\": \"upi\"\n}"
+      },
+      {
+        "input": "Practo consultation 500 rupees cash",
+        "gold": {
+          "amount": 500,
+          "category": "health",
+          "merchant": "Practo",
+          "payment": "cash"
+        },
+        "raw_output": "{\n  \"amount\": 500,\n  \"category\": \"food\",\n  \"merchant\": \"practo\",\n  \"payment\": \"cash\"\n}"
+      },
+      {
+        "input": "Amazon: 99999 (card)",
+        "gold": {
+          "amount": 99999,
+          "category": "shopping",
+          "merchant": "Amazon",
+          "payment": "card"
+        },
+        "raw_output": "{\n  \"amount\": 99999,\n  \"category\": \"shopping\",\n  \"merchant\": \"Amazon\",\n  \"payment\": \"cash\"\n}"
+      },
+      {
+        "input": "Steam wallet top-up 1.5k with GPay",
+        "gold": {
+          "amount": 1500,
+          "category": "entertainment",
+          "merchant": "Steam",
+          "payment": "upi"
+        },
+        "raw_output": "{\n  \"amount\": 1500,\n  \"category\": \"transport\",\n  \"merchant\": \"GPay\",\n  \"payment\": \"cash\"\n}"
+      },
+      {
+        "input": "Spent 0.5k on Haldiram's in cash",
+        "gold": {
+          "amount": 500,
+          "category": "food",
+          "merchant": "Haldiram's",
+          "payment": "cash"
+        },
+        "raw_output": "{\"amount\":0.5,\"category\":\"food\",\"merchant\":\"\",\"payment\":\"cash\"}"
+      },
+      {
+        "input": "Paid ola 210 via UPI",
+        "gold": {
+          "amount": 210,
+          "category": "transport",
+          "merchant": "Ola",
+          "payment": "upi"
+        },
+        "raw_output": "{\n  \"amount\": 210,\n  \"category\": \"transport\",\n  \"merchant\": \"ola\",\n  \"payment\": \"UPI\"\n}"
+      },
+      {
+        "input": "Cult.fit membership 3 thousand 500, debit card",
+        "gold": {
+          "amount": 3500,
+          "category": "health",
+          "merchant": "Cult.fit",
+          "payment": "card"
+        },
+        "raw_output": "{\n  \"amount\": 3500,\n  \"category\": \"food\",\n  \"merchant\": \"cult.fit membership\",\n  \"payment\": \"debit card\"\n}"
+      },
+      {
+        "input": "Jio 999 phonepe",
+        "gold": {
+          "amount": 999,
+          "category": "bills",
+          "merchant": "Jio",
+          "payment": "upi"
+        },
+        "raw_output": "{\n  \"amount\": 999,\n  \"category\": \"transport\",\n  \"merchant\": \"phonepe\",\n  \"payment\": \"cash\"\n}"
+      }
+    ]
+  },
+  "finetuned": {
+    "exact_match": 0.68,
+    "n": 25,
+    "failures": [
+      {
+        "input": "Spent Rs 1,200 at Ajio using my card",
+        "gold": {
+          "amount": 1200,
+          "category": "shopping",
+          "merchant": "Ajio",
+          "payment": "card"
+        },
+        "raw_output": "{\"amount\":1200,\"category\":\"food\",\"merchant\":\"Ajio\",\"payment\":\"card\"}"
+      },
+      {
+        "input": "Uber ride cost 2.5k, paid in cash",
+        "gold": {
+          "amount": 2500,
+          "category": "transport",
+          "merchant": "Uber",
+          "payment": "cash"
+        },
+        "raw_output": "{\"amount\":2.5,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"cash\"}"
+      },
+      {
+        "input": "Paid two thousand rupees to Airtel through UPI",
+        "gold": {
+          "amount": 2000,
+          "category": "bills",
+          "merchant": "Airtel",
+          "payment": "upi"
+        },
+        "raw_output": "{\"amount\":200,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"upi\"}"
+      },
+      {
+        "input": "Zee5 subscription 299 paid with PhonePe",
+        "gold": {
+          "amount": 299,
+          "category": "entertainment",
+          "merchant": "Zee5",
+          "payment": "upi"
+        },
+        "raw_output": "{\"amount\":299,\"category\":\"bills\",\"merchant\":\"Zee5\",\"payment\":\"upi\"}"
+      },
+      {
+        "input": "Vi recharge 239 through PhonePe",
+        "gold": {
+          "amount": 239,
+          "category": "bills",
+          "merchant": "Vi",
+          "payment": "upi"
+        },
+        "raw_output": "{\"amount\":239,\"category\":\"bills\",\"merchant\":\"PhonePe\",\"payment\":\"upi\"}"
+      },
+      {
+        "input": "Steam wallet top-up 1.5k with GPay",
+        "gold": {
+          "amount": 1500,
+          "category": "entertainment",
+          "merchant": "Steam",
+          "payment": "upi"
+        },
+        "raw_output": "{\"amount\":1.5,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"upi\"}"
+      },
+      {
+        "input": "Spent 0.5k on Haldiram's in cash",
+        "gold": {
+          "amount": 500,
+          "category": "food",
+          "merchant": "Haldiram's",
+          "payment": "cash"
+        },
+        "raw_output": "{\"amount\":0.5,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"
+      },
+      {
+        "input": "Paid ola 210 via UPI",
+        "gold": {
+          "amount": 210,
+          "category": "transport",
+          "merchant": "Ola",
+          "payment": "upi"
+        },
+        "raw_output": "{\"amount\":210,\"category\":\"transport\",\"merchant\":\"ola\",\"payment\":\"upi\"}"
+      }
+    ]
+  }
+}
