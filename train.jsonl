@@ -1,0 +1,800 @@
+{"input": "Just paid Apollo Pharmacy ₹760 with in cash", "output": "{\"amount\":760,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs 520 to 1mg via in cash", "output": "{\"amount\":520,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.2109.95 to Hotstar via cash", "output": "{\"amount\":2109.95,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Vi for Rs.495.78, paid by UPI", "output": "{\"amount\":495.78,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Flipkart for ₹1990, paid by in cash", "output": "{\"amount\":1990,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs.1617.96 at Croma using UPI", "output": "{\"amount\":1617.96,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"upi\"}"}
+{"input": "Just paid PVR Rs 1097.67 with my card", "output": "{\"amount\":1097.67,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "Spent Rs 2955.96 at Zomato using credit card", "output": "{\"amount\":2955.96,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"card\"}"}
+{"input": "Paid 504.71 rupees to Tata Power via PhonePe", "output": "{\"amount\":504.71,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs 1835.21 on Practo, payment method my card", "output": "{\"amount\":1835.21,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"card\"}"}
+{"input": "Just paid PharmEasy Rs 4780 with in cash", "output": "{\"amount\":4780,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹1215.47 to Amazon via cash", "output": "{\"amount\":1215.47,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.4730 to PVR via in cash", "output": "{\"amount\":4730,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Flipkart for Rs.1296.73, paid by in cash", "output": "{\"amount\":1296.73,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹290 to Ola via debit card", "output": "{\"amount\":290,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.2020 on PharmEasy, payment method debit card", "output": "{\"amount\":2020,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"card\"}"}
+{"input": "Just paid Vi ₹54.21 with PhonePe", "output": "{\"amount\":54.21,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "PVR: Rs 2270 (debit card)", "output": "{\"amount\":2270,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "Just paid Domino's 590 rupees with credit card", "output": "{\"amount\":590,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of ₹870 on Hotstar, payment method cash", "output": "{\"amount\":870,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"cash\"}"}
+{"input": "Paid 2638.59 rupees to Decathlon via cash", "output": "{\"amount\":2638.59,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹2530 on Swiggy, payment method credit card", "output": "{\"amount\":2530,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"card\"}"}
+{"input": "Paid Rs.512.08 to Ola via debit card", "output": "{\"amount\":512.08,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"card\"}"}
+{"input": "Spotify: 3480 rupees (debit card)", "output": "{\"amount\":3480,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of ₹1780 on Steam, payment method cash", "output": "{\"amount\":1780,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹3670 to Spotify via credit card", "output": "{\"amount\":3670,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"card\"}"}
+{"input": "Paid Rs.1470 to Zomato via UPI", "output": "{\"amount\":1470,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"upi\"}"}
+{"input": "Spotify: Rs.1290 (my card)", "output": "{\"amount\":1290,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"card\"}"}
+{"input": "Just paid Uber Rs.2150 with in cash", "output": "{\"amount\":2150,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹2405.77 to Zomato via in cash", "output": "{\"amount\":2405.77,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"cash\"}"}
+{"input": "Ola: 980 rupees (debit card)", "output": "{\"amount\":980,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"card\"}"}
+{"input": "Spent ₹3380 at Uber using PhonePe", "output": "{\"amount\":3380,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs.4470 at Ola using GPay", "output": "{\"amount\":4470,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"upi\"}"}
+{"input": "I bought something from IRCTC for Rs.4060, paid by in cash", "output": "{\"amount\":4060,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"cash\"}"}
+{"input": "Paid 1020 rupees to Vi via my card", "output": "{\"amount\":1020,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "Spent ₹1650 at Haldiram's using my card", "output": "{\"amount\":1650,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"card\"}"}
+{"input": "Paid ₹4960 to Steam via my card", "output": "{\"amount\":4960,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 4870 on Haldiram's, payment method cash", "output": "{\"amount\":4870,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "I bought something from BookMyShow for 3030 rupees, paid by credit card", "output": "{\"amount\":3030,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"card\"}"}
+{"input": "Rapido: 3480 rupees (in cash)", "output": "{\"amount\":3480,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹1697.72 at Amazon using in cash", "output": "{\"amount\":1697.72,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹1830 to Spotify via debit card", "output": "{\"amount\":1830,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"card\"}"}
+{"input": "Just paid Myntra ₹2116.55 with in cash", "output": "{\"amount\":2116.55,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹420.19 at PVR using credit card", "output": "{\"amount\":420.19,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "Paid 1120 rupees to 1mg via in cash", "output": "{\"amount\":1120,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹4690 at Practo using debit card", "output": "{\"amount\":4690,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"card\"}"}
+{"input": "Just paid Cult.fit Rs 3990 with UPI", "output": "{\"amount\":3990,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹2230 at Flipkart using debit card", "output": "{\"amount\":2230,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "Swiggy: Rs 1755.88 (credit card)", "output": "{\"amount\":1755.88,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"card\"}"}
+{"input": "I bought something from Uber for ₹2392.44, paid by GPay", "output": "{\"amount\":2392.44,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.2910 on Ola, payment method credit card", "output": "{\"amount\":2910,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.2436.1 at PharmEasy using cash", "output": "{\"amount\":2436.1,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Paid 2436.03 rupees to Rapido via PhonePe", "output": "{\"amount\":2436.03,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Apollo Pharmacy for Rs.682.85, paid by UPI", "output": "{\"amount\":682.85,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"upi\"}"}
+{"input": "Spent 1207.43 rupees at Flipkart using cash", "output": "{\"amount\":1207.43,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Spent 4360 rupees at Myntra using my card", "output": "{\"amount\":4360,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"card\"}"}
+{"input": "I bought something from Domino's for Rs.3100, paid by in cash", "output": "{\"amount\":3100,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Practo for Rs 364.62, paid by PhonePe", "output": "{\"amount\":364.62,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 400 rupees on Barista, payment method cash", "output": "{\"amount\":400,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Amazon for Rs.3460, paid by debit card", "output": "{\"amount\":3460,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"card\"}"}
+{"input": "Just paid Tata Power Rs.3450 with credit card", "output": "{\"amount\":3450,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"card\"}"}
+{"input": "I bought something from PharmEasy for ₹2850, paid by my card", "output": "{\"amount\":2850,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"card\"}"}
+{"input": "Flipkart: Rs.980.3 (PhonePe)", "output": "{\"amount\":980.3,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"upi\"}"}
+{"input": "Just paid PharmEasy Rs 2880.3 with debit card", "output": "{\"amount\":2880.3,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"card\"}"}
+{"input": "Just paid Domino's Rs 1018.86 with my card", "output": "{\"amount\":1018.86,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.1300 on Flipkart, payment method cash", "output": "{\"amount\":1300,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Barista: Rs.3720 (PhonePe)", "output": "{\"amount\":3720,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"upi\"}"}
+{"input": "Jio: ₹2584.11 (cash)", "output": "{\"amount\":2584.11,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 2900 at Ola using my card", "output": "{\"amount\":2900,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"card\"}"}
+{"input": "Jio: 2910 rupees (PhonePe)", "output": "{\"amount\":2910,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"upi\"}"}
+{"input": "Hotstar: Rs.860 (PhonePe)", "output": "{\"amount\":860,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Flipkart for Rs 1573.47, paid by debit card", "output": "{\"amount\":1573.47,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 1760 rupees on Airtel, payment method debit card", "output": "{\"amount\":1760,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "Spent Rs 830 at Swiggy using cash", "output": "{\"amount\":830,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"cash\"}"}
+{"input": "Netflix: Rs 360 (PhonePe)", "output": "{\"amount\":360,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"upi\"}"}
+{"input": "Vi: Rs.2301.47 (credit card)", "output": "{\"amount\":2301.47,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.2861.22 on Domino's, payment method GPay", "output": "{\"amount\":2861.22,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"upi\"}"}
+{"input": "1mg: Rs.1440 (credit card)", "output": "{\"amount\":1440,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "Barista: Rs 1224.86 (PhonePe)", "output": "{\"amount\":1224.86,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹1783.84 at Metro using credit card", "output": "{\"amount\":1783.84,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"card\"}"}
+{"input": "I bought something from Cult.fit for Rs.1380, paid by in cash", "output": "{\"amount\":1380,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "I bought something from IRCTC for Rs.1149.8, paid by GPay", "output": "{\"amount\":1149.8,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"upi\"}"}
+{"input": "Just paid Barista ₹1062.88 with cash", "output": "{\"amount\":1062.88,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs 1871.58 to Zomato via cash", "output": "{\"amount\":1871.58,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"cash\"}"}
+{"input": "Paid 1360 rupees to Airtel via credit card", "output": "{\"amount\":1360,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "I bought something from Hotstar for Rs 4240, paid by my card", "output": "{\"amount\":4240,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"card\"}"}
+{"input": "Haldiram's: Rs.4690 (in cash)", "output": "{\"amount\":4690,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "Just paid PharmEasy 4000 rupees with cash", "output": "{\"amount\":4000,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Spent 2240 rupees at BookMyShow using credit card", "output": "{\"amount\":2240,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"card\"}"}
+{"input": "Just paid PVR 334.51 rupees with in cash", "output": "{\"amount\":334.51,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of 2897.11 rupees on Jio, payment method UPI", "output": "{\"amount\":2897.11,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"upi\"}"}
+{"input": "Paid 1785.57 rupees to Steam via GPay", "output": "{\"amount\":1785.57,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Domino's for Rs.1718.15, paid by UPI", "output": "{\"amount\":1718.15,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Barista for 1860 rupees, paid by UPI", "output": "{\"amount\":1860,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs 2690 at Croma using debit card", "output": "{\"amount\":2690,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"card\"}"}
+{"input": "IRCTC: Rs.2078.02 (PhonePe)", "output": "{\"amount\":2078.02,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"upi\"}"}
+{"input": "Just paid Zomato 1290 rupees with UPI", "output": "{\"amount\":1290,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"upi\"}"}
+{"input": "I bought something from PVR for 2220 rupees, paid by PhonePe", "output": "{\"amount\":2220,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Cult.fit for Rs 660, paid by GPay", "output": "{\"amount\":660,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Haldiram's for Rs.3830, paid by credit card", "output": "{\"amount\":3830,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"card\"}"}
+{"input": "I bought something from 1mg for Rs 560, paid by my card", "output": "{\"amount\":560,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "I bought something from Rapido for Rs 2780, paid by in cash", "output": "{\"amount\":2780,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs.396.31 at Zomato using debit card", "output": "{\"amount\":396.31,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"card\"}"}
+{"input": "Spent Rs 1790 at Haldiram's using GPay", "output": "{\"amount\":1790,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹420 to Decathlon via cash", "output": "{\"amount\":420,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.372.99 on Metro, payment method UPI", "output": "{\"amount\":372.99,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 2310 rupees on Hotstar, payment method in cash", "output": "{\"amount\":2310,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹4960 to Tata Power via my card", "output": "{\"amount\":4960,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 1270 on PharmEasy, payment method PhonePe", "output": "{\"amount\":1270,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Swiggy for Rs.3090, paid by in cash", "output": "{\"amount\":3090,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs.4450 at Swiggy using PhonePe", "output": "{\"amount\":4450,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "PharmEasy: Rs 4160 (PhonePe)", "output": "{\"amount\":4160,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹2483.36 at Haldiram's using cash", "output": "{\"amount\":2483.36,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs.2765.15 at Rapido using my card", "output": "{\"amount\":2765.15,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"card\"}"}
+{"input": "Tata Power: Rs.1511.41 (debit card)", "output": "{\"amount\":1511.41,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"card\"}"}
+{"input": "Spent ₹1819.07 at Haldiram's using in cash", "output": "{\"amount\":1819.07,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of 2023.4 rupees on Metro, payment method credit card", "output": "{\"amount\":2023.4,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 2749.9 on Swiggy, payment method PhonePe", "output": "{\"amount\":2749.9,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "Just paid Netflix 1750 rupees with in cash", "output": "{\"amount\":1750,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.878.89 on Swiggy, payment method GPay", "output": "{\"amount\":878.89,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.640 on Barista, payment method in cash", "output": "{\"amount\":640,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of 2700 rupees on Haldiram's, payment method GPay", "output": "{\"amount\":2700,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"upi\"}"}
+{"input": "Netflix: 720 rupees (cash)", "output": "{\"amount\":720,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "Just paid Cult.fit Rs 1834.44 with cash", "output": "{\"amount\":1834.44,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 520 at Rapido using credit card", "output": "{\"amount\":520,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 3710 rupees on Airtel, payment method credit card", "output": "{\"amount\":3710,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "Practo: Rs 746.32 (GPay)", "output": "{\"amount\":746.32,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"upi\"}"}
+{"input": "Metro: 2594.8 rupees (my card)", "output": "{\"amount\":2594.8,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"card\"}"}
+{"input": "Paid Rs.1570 to Croma via UPI", "output": "{\"amount\":1570,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"upi\"}"}
+{"input": "Vi: Rs.3950 (GPay)", "output": "{\"amount\":3950,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs.1240 at Flipkart using credit card", "output": "{\"amount\":1240,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "Decathlon: Rs 3440 (debit card)", "output": "{\"amount\":3440,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.560 at Swiggy using my card", "output": "{\"amount\":560,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"card\"}"}
+{"input": "Spent Rs 3400 at Steam using cash", "output": "{\"amount\":3400,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"cash\"}"}
+{"input": "Just paid Tata Power 1956.51 rupees with PhonePe", "output": "{\"amount\":1956.51,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹2283.02 on Steam, payment method PhonePe", "output": "{\"amount\":2283.02,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"upi\"}"}
+{"input": "Swiggy: ₹2992.33 (my card)", "output": "{\"amount\":2992.33,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"card\"}"}
+{"input": "I bought something from Zomato for ₹2712.2, paid by UPI", "output": "{\"amount\":2712.2,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.1300 on Domino's, payment method GPay", "output": "{\"amount\":1300,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.4500 on PharmEasy, payment method cash", "output": "{\"amount\":4500,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "PharmEasy: 2410 rupees (PhonePe)", "output": "{\"amount\":2410,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Amazon for Rs.490.77, paid by GPay", "output": "{\"amount\":490.77,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"upi\"}"}
+{"input": "Paid 1381.37 rupees to PVR via debit card", "output": "{\"amount\":1381.37,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "Just paid Netflix 1880 rupees with cash", "output": "{\"amount\":1880,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹2940 on Amazon, payment method debit card", "output": "{\"amount\":2940,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 1069.92 on Cult.fit, payment method UPI", "output": "{\"amount\":1069.92,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "Flipkart: 1946.1 rupees (credit card)", "output": "{\"amount\":1946.1,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "I bought something from Haldiram's for 4700 rupees, paid by PhonePe", "output": "{\"amount\":4700,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 2810 rupees on Cult.fit, payment method cash", "output": "{\"amount\":2810,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "Just paid PVR 2833.68 rupees with in cash", "output": "{\"amount\":2833.68,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "Just paid Amazon Rs 4990 with UPI", "output": "{\"amount\":4990,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Cult.fit for ₹2070, paid by debit card", "output": "{\"amount\":2070,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"card\"}"}
+{"input": "Just paid BookMyShow Rs.2023.58 with GPay", "output": "{\"amount\":2023.58,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 3220 rupees on Amazon, payment method credit card", "output": "{\"amount\":3220,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.920.53 at Uber using debit card", "output": "{\"amount\":920.53,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 366.04 on Uber, payment method in cash", "output": "{\"amount\":366.04,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.2234.56 on IRCTC, payment method GPay", "output": "{\"amount\":2234.56,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"upi\"}"}
+{"input": "I bought something from PharmEasy for Rs.2550, paid by PhonePe", "output": "{\"amount\":2550,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"upi\"}"}
+{"input": "Spent 1250 rupees at Domino's using in cash", "output": "{\"amount\":1250,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"cash\"}"}
+{"input": "Paid 2080 rupees to Practo via my card", "output": "{\"amount\":2080,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"card\"}"}
+{"input": "Spent ₹1799.49 at Barista using cash", "output": "{\"amount\":1799.49,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs 3960 on Flipkart, payment method cash", "output": "{\"amount\":3960,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Paid 1796.03 rupees to Ola via UPI", "output": "{\"amount\":1796.03,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹4480 to Metro via UPI", "output": "{\"amount\":4480,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹1400 to Domino's via in cash", "output": "{\"amount\":1400,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of 1439.21 rupees on Cult.fit, payment method credit card", "output": "{\"amount\":1439.21,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"card\"}"}
+{"input": "Just paid BookMyShow ₹3190 with PhonePe", "output": "{\"amount\":3190,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"upi\"}"}
+{"input": "1mg: Rs.112.83 (GPay)", "output": "{\"amount\":112.83,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Airtel for ₹239.0, paid by PhonePe", "output": "{\"amount\":239.0,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"upi\"}"}
+{"input": "Spotify: 3290 rupees (cash)", "output": "{\"amount\":3290,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"cash\"}"}
+{"input": "Just paid Hotstar ₹2250 with GPay", "output": "{\"amount\":2250,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"upi\"}"}
+{"input": "Haldiram's: Rs 4590 (credit card)", "output": "{\"amount\":4590,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"card\"}"}
+{"input": "Just paid Decathlon 951.39 rupees with GPay", "output": "{\"amount\":951.39,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹4300 at Myntra using in cash", "output": "{\"amount\":4300,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹710 on Airtel, payment method my card", "output": "{\"amount\":710,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "Just paid Hotstar Rs.1860 with PhonePe", "output": "{\"amount\":1860,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 3000 to Domino's via debit card", "output": "{\"amount\":3000,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"card\"}"}
+{"input": "Spent 2890 rupees at Cult.fit using cash", "output": "{\"amount\":2890,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹2924.15 on Croma, payment method in cash", "output": "{\"amount\":2924.15,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Practo for 3950 rupees, paid by cash", "output": "{\"amount\":3950,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹2100 to Amazon via cash", "output": "{\"amount\":2100,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"cash\"}"}
+{"input": "Paid 2370 rupees to Apollo Pharmacy via cash", "output": "{\"amount\":2370,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹1711.43 at Myntra using debit card", "output": "{\"amount\":1711.43,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"card\"}"}
+{"input": "Ola: Rs.830.87 (credit card)", "output": "{\"amount\":830.87,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"card\"}"}
+{"input": "I bought something from Steam for ₹2670, paid by GPay", "output": "{\"amount\":2670,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"upi\"}"}
+{"input": "Spent 1470.17 rupees at Airtel using PhonePe", "output": "{\"amount\":1470.17,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 1590 to IRCTC via credit card", "output": "{\"amount\":1590,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "Paid Rs.3870 to Myntra via UPI", "output": "{\"amount\":3870,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"upi\"}"}
+{"input": "Spent 2910 rupees at IRCTC using my card", "output": "{\"amount\":2910,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 440 rupees on Airtel, payment method UPI", "output": "{\"amount\":440,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs.882.76 at Vi using PhonePe", "output": "{\"amount\":882.76,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "Flipkart: ₹2760.91 (debit card)", "output": "{\"amount\":2760.91,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "I bought something from Swiggy for Rs.450, paid by PhonePe", "output": "{\"amount\":450,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹247.61 on Practo, payment method in cash", "output": "{\"amount\":247.61,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs 2460.47 to Spotify via GPay", "output": "{\"amount\":2460.47,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹830 to Swiggy via UPI", "output": "{\"amount\":830,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "Just paid Cult.fit 1357.74 rupees with PhonePe", "output": "{\"amount\":1357.74,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Flipkart for 3280 rupees, paid by UPI", "output": "{\"amount\":3280,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs.2410 at BookMyShow using PhonePe", "output": "{\"amount\":2410,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹2932.56 on Domino's, payment method UPI", "output": "{\"amount\":2932.56,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"upi\"}"}
+{"input": "Hotstar: ₹4930 (GPay)", "output": "{\"amount\":4930,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"upi\"}"}
+{"input": "Spotify: ₹820 (PhonePe)", "output": "{\"amount\":820,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹930 to Domino's via credit card", "output": "{\"amount\":930,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"card\"}"}
+{"input": "I bought something from Cult.fit for 860 rupees, paid by PhonePe", "output": "{\"amount\":860,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "Spent 176.05 rupees at Decathlon using GPay", "output": "{\"amount\":176.05,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Amazon for Rs 1340, paid by my card", "output": "{\"amount\":1340,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"card\"}"}
+{"input": "Paid Rs.944.49 to Haldiram's via credit card", "output": "{\"amount\":944.49,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"card\"}"}
+{"input": "Paid 4100 rupees to BookMyShow via PhonePe", "output": "{\"amount\":4100,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"upi\"}"}
+{"input": "I bought something from 1mg for 140 rupees, paid by in cash", "output": "{\"amount\":140,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 750 at Ola using GPay", "output": "{\"amount\":750,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"upi\"}"}
+{"input": "Just paid Amazon ₹2653.37 with my card", "output": "{\"amount\":2653.37,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"card\"}"}
+{"input": "Just paid Croma Rs 970 with in cash", "output": "{\"amount\":970,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.727.84 on Airtel, payment method GPay", "output": "{\"amount\":727.84,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs.4190 to Decathlon via cash", "output": "{\"amount\":4190,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.2338.81 to Croma via GPay", "output": "{\"amount\":2338.81,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 2510 rupees on Metro, payment method in cash", "output": "{\"amount\":2510,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"cash\"}"}
+{"input": "Haldiram's: 870 rupees (in cash)", "output": "{\"amount\":870,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Spotify for Rs.681.67, paid by UPI", "output": "{\"amount\":681.67,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs.1250 at Barista using in cash", "output": "{\"amount\":1250,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"cash\"}"}
+{"input": "Paid 2520.75 rupees to Flipkart via in cash", "output": "{\"amount\":2520.75,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Uber: Rs.433.6 (GPay)", "output": "{\"amount\":433.6,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs 4320 on BookMyShow, payment method cash", "output": "{\"amount\":4320,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"cash\"}"}
+{"input": "I bought something from 1mg for Rs 1520, paid by debit card", "output": "{\"amount\":1520,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "Spent ₹1875.98 at Zomato using in cash", "output": "{\"amount\":1875.98,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Vi for Rs 1733.64, paid by credit card", "output": "{\"amount\":1733.64,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "Just paid Airtel Rs 2180 with debit card", "output": "{\"amount\":2180,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "Apollo Pharmacy: ₹2740 (debit card)", "output": "{\"amount\":2740,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"card\"}"}
+{"input": "I bought something from Airtel for ₹775.88, paid by debit card", "output": "{\"amount\":775.88,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "Paid 2210.86 rupees to Domino's via cash", "output": "{\"amount\":2210.86,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"cash\"}"}
+{"input": "Just paid Domino's Rs.541.77 with debit card", "output": "{\"amount\":541.77,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"card\"}"}
+{"input": "I bought something from Jio for ₹2831.94, paid by cash", "output": "{\"amount\":2831.94,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.1630 on Uber, payment method cash", "output": "{\"amount\":1630,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"cash\"}"}
+{"input": "Just paid Tata Power ₹4460 with cash", "output": "{\"amount\":4460,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"cash\"}"}
+{"input": "Myntra: Rs.2090 (in cash)", "output": "{\"amount\":2090,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"cash\"}"}
+{"input": "Spent 4780 rupees at Flipkart using PhonePe", "output": "{\"amount\":4780,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Cult.fit for 2470.58 rupees, paid by in cash", "output": "{\"amount\":2470.58,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.2330 to Zomato via PhonePe", "output": "{\"amount\":2330,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 4500 rupees on Cult.fit, payment method GPay", "output": "{\"amount\":4500,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Tata Power for Rs.3310, paid by credit card", "output": "{\"amount\":3310,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.2040.7 at Spotify using cash", "output": "{\"amount\":2040.7,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹4910 on Uber, payment method in cash", "output": "{\"amount\":4910,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs 440 on IRCTC, payment method GPay", "output": "{\"amount\":440,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹4960 at Decathlon using PhonePe", "output": "{\"amount\":4960,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"upi\"}"}
+{"input": "I bought something from PharmEasy for ₹2920, paid by PhonePe", "output": "{\"amount\":2920,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs 2995.91 at Decathlon using in cash", "output": "{\"amount\":2995.91,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"cash\"}"}
+{"input": "Just paid Uber ₹1346.43 with UPI", "output": "{\"amount\":1346.43,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"upi\"}"}
+{"input": "Paid 1530 rupees to Myntra via credit card", "output": "{\"amount\":1530,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"card\"}"}
+{"input": "Paid Rs 1070 to PharmEasy via PhonePe", "output": "{\"amount\":1070,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs 2440 on Airtel, payment method PhonePe", "output": "{\"amount\":2440,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"upi\"}"}
+{"input": "Zomato: Rs.2162.23 (GPay)", "output": "{\"amount\":2162.23,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"upi\"}"}
+{"input": "Paid 1360.92 rupees to BookMyShow via in cash", "output": "{\"amount\":1360.92,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹4710 at Hotstar using cash", "output": "{\"amount\":4710,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Spotify for Rs 4830, paid by UPI", "output": "{\"amount\":4830,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"upi\"}"}
+{"input": "Paid 4940 rupees to PVR via in cash", "output": "{\"amount\":4940,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs 3330 on Practo, payment method my card", "output": "{\"amount\":3330,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"card\"}"}
+{"input": "Spent ₹1699.58 at Spotify using in cash", "output": "{\"amount\":1699.58,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.2970 on Haldiram's, payment method PhonePe", "output": "{\"amount\":2970,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"upi\"}"}
+{"input": "Apollo Pharmacy: 3330 rupees (PhonePe)", "output": "{\"amount\":3330,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"upi\"}"}
+{"input": "IRCTC: Rs 350 (GPay)", "output": "{\"amount\":350,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"upi\"}"}
+{"input": "Just paid Netflix 780 rupees with UPI", "output": "{\"amount\":780,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Myntra for ₹1554.64, paid by UPI", "output": "{\"amount\":1554.64,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹770 at IRCTC using in cash", "output": "{\"amount\":770,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Decathlon for Rs 4480, paid by debit card", "output": "{\"amount\":4480,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"card\"}"}
+{"input": "PVR: Rs.2680 (cash)", "output": "{\"amount\":2680,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs 1526.22 to Decathlon via cash", "output": "{\"amount\":1526.22,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"cash\"}"}
+{"input": "I bought something from PVR for Rs.3100, paid by cash", "output": "{\"amount\":3100,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "BookMyShow: 1400 rupees (in cash)", "output": "{\"amount\":1400,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of 1040 rupees on Amazon, payment method UPI", "output": "{\"amount\":1040,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 2860 rupees on Amazon, payment method PhonePe", "output": "{\"amount\":2860,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 1193.83 rupees on 1mg, payment method cash", "output": "{\"amount\":1193.83,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹280 to Flipkart via in cash", "output": "{\"amount\":280,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Practo for Rs 3150, paid by PhonePe", "output": "{\"amount\":3150,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 2223.17 rupees on PVR, payment method in cash", "output": "{\"amount\":2223.17,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "Croma: 2930 rupees (my card)", "output": "{\"amount\":2930,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"card\"}"}
+{"input": "Just paid Domino's 2180 rupees with PhonePe", "output": "{\"amount\":2180,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"upi\"}"}
+{"input": "Just paid Apollo Pharmacy Rs 3400 with debit card", "output": "{\"amount\":3400,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"card\"}"}
+{"input": "Paid Rs.3740 to Haldiram's via UPI", "output": "{\"amount\":3740,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"upi\"}"}
+{"input": "PharmEasy: 2300 rupees (cash)", "output": "{\"amount\":2300,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Just paid IRCTC Rs.4010 with credit card", "output": "{\"amount\":4010,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "Just paid Apollo Pharmacy 2920 rupees with credit card", "output": "{\"amount\":2920,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 1389.8 rupees on Vi, payment method GPay", "output": "{\"amount\":1389.8,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 1310 rupees on Myntra, payment method debit card", "output": "{\"amount\":1310,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"card\"}"}
+{"input": "I bought something from Flipkart for Rs.2076.91, paid by GPay", "output": "{\"amount\":2076.91,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"upi\"}"}
+{"input": "Tata Power: Rs.670 (my card)", "output": "{\"amount\":670,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"card\"}"}
+{"input": "I bought something from Flipkart for ₹3700, paid by UPI", "output": "{\"amount\":3700,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 4280 rupees on Tata Power, payment method debit card", "output": "{\"amount\":4280,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"card\"}"}
+{"input": "Spent Rs 1768.75 at Practo using cash", "output": "{\"amount\":1768.75,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"cash\"}"}
+{"input": "Just paid 1mg 2160 rupees with cash", "output": "{\"amount\":2160,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"cash\"}"}
+{"input": "Airtel: Rs 2860 (credit card)", "output": "{\"amount\":2860,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "I bought something from Cult.fit for 4980 rupees, paid by PhonePe", "output": "{\"amount\":4980,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹3750 to Amazon via cash", "output": "{\"amount\":3750,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"cash\"}"}
+{"input": "Spent 575.21 rupees at Jio using in cash", "output": "{\"amount\":575.21,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"cash\"}"}
+{"input": "Domino's: 1760 rupees (my card)", "output": "{\"amount\":1760,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"card\"}"}
+{"input": "I bought something from 1mg for Rs.419.92, paid by debit card", "output": "{\"amount\":419.92,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "Spent Rs 1951.89 at Uber using UPI", "output": "{\"amount\":1951.89,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"upi\"}"}
+{"input": "Practo: Rs.595.62 (PhonePe)", "output": "{\"amount\":595.62,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"upi\"}"}
+{"input": "PVR: Rs 570.65 (in cash)", "output": "{\"amount\":570.65,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Flipkart for 2330 rupees, paid by in cash", "output": "{\"amount\":2330,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Just paid Croma 3390 rupees with my card", "output": "{\"amount\":3390,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"card\"}"}
+{"input": "Just paid Uber Rs.860 with credit card", "output": "{\"amount\":860,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 2823.09 rupees on PVR, payment method credit card", "output": "{\"amount\":2823.09,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "Ola: 3870 rupees (in cash)", "output": "{\"amount\":3870,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"cash\"}"}
+{"input": "Just paid 1mg Rs 2480.3 with PhonePe", "output": "{\"amount\":2480.3,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹1900 on BookMyShow, payment method debit card", "output": "{\"amount\":1900,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"card\"}"}
+{"input": "Paid Rs 2790 to Zomato via my card", "output": "{\"amount\":2790,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.2156.42 at Croma using UPI", "output": "{\"amount\":2156.42,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.2170 on Steam, payment method in cash", "output": "{\"amount\":2170,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Haldiram's for Rs.2175.37, paid by PhonePe", "output": "{\"amount\":2175.37,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹1810 on Swiggy, payment method credit card", "output": "{\"amount\":1810,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"card\"}"}
+{"input": "Just paid Zomato Rs 970 with UPI", "output": "{\"amount\":970,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"upi\"}"}
+{"input": "Cult.fit: Rs.4740 (GPay)", "output": "{\"amount\":4740,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.2800 on Haldiram's, payment method in cash", "output": "{\"amount\":2800,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.1399.75 on Ola, payment method cash", "output": "{\"amount\":1399.75,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"cash\"}"}
+{"input": "Just paid Jio Rs 1460 with in cash", "output": "{\"amount\":1460,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹2809.99 to Zomato via debit card", "output": "{\"amount\":2809.99,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"card\"}"}
+{"input": "Paid ₹3490 to Uber via cash", "output": "{\"amount\":3490,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹1160 to Apollo Pharmacy via GPay", "output": "{\"amount\":1160,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"upi\"}"}
+{"input": "Paid 4000 rupees to PVR via in cash", "output": "{\"amount\":4000,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "Spent 1580 rupees at Flipkart using my card", "output": "{\"amount\":1580,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.1293.06 at Hotstar using credit card", "output": "{\"amount\":1293.06,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"card\"}"}
+{"input": "Decathlon: 1236.61 rupees (debit card)", "output": "{\"amount\":1236.61,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"card\"}"}
+{"input": "Metro: Rs 916.19 (UPI)", "output": "{\"amount\":916.19,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs.730 to Haldiram's via GPay", "output": "{\"amount\":730,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"upi\"}"}
+{"input": "Spent 2350 rupees at Flipkart using PhonePe", "output": "{\"amount\":2350,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹3140 at Spotify using in cash", "output": "{\"amount\":3140,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Metro for Rs 2500, paid by my card", "output": "{\"amount\":2500,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"card\"}"}
+{"input": "Paid Rs.369.6 to Amazon via cash", "output": "{\"amount\":369.6,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"cash\"}"}
+{"input": "I bought something from 1mg for 1270 rupees, paid by credit card", "output": "{\"amount\":1270,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 1380 rupees on Netflix, payment method my card", "output": "{\"amount\":1380,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"card\"}"}
+{"input": "I bought something from Netflix for Rs 974.3, paid by in cash", "output": "{\"amount\":974.3,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Decathlon for Rs.68.34, paid by cash", "output": "{\"amount\":68.34,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"cash\"}"}
+{"input": "Ola: Rs 4310 (UPI)", "output": "{\"amount\":4310,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"upi\"}"}
+{"input": "PVR: Rs.1932.25 (GPay)", "output": "{\"amount\":1932.25,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹1475.18 on Rapido, payment method cash", "output": "{\"amount\":1475.18,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 1248.93 at Zomato using credit card", "output": "{\"amount\":1248.93,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of ₹1960 on PharmEasy, payment method cash", "output": "{\"amount\":1960,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs.80 at 1mg using PhonePe", "output": "{\"amount\":80,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹1510 on Haldiram's, payment method debit card", "output": "{\"amount\":1510,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"card\"}"}
+{"input": "Paid Rs 1582.67 to Cult.fit via cash", "output": "{\"amount\":1582.67,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Hotstar for ₹2080, paid by GPay", "output": "{\"amount\":2080,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"upi\"}"}
+{"input": "Just paid Netflix ₹693.05 with credit card", "output": "{\"amount\":693.05,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.2870 at Apollo Pharmacy using in cash", "output": "{\"amount\":2870,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"cash\"}"}
+{"input": "Just paid Apollo Pharmacy Rs.4370 with credit card", "output": "{\"amount\":4370,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"card\"}"}
+{"input": "I bought something from Croma for Rs.4660, paid by cash", "output": "{\"amount\":4660,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹1699.26 to Zomato via debit card", "output": "{\"amount\":1699.26,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.2143.88 at Amazon using cash", "output": "{\"amount\":2143.88,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"cash\"}"}
+{"input": "Just paid Flipkart Rs.4390 with credit card", "output": "{\"amount\":4390,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of ₹3570 on PVR, payment method PhonePe", "output": "{\"amount\":3570,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Practo for ₹4340, paid by cash", "output": "{\"amount\":4340,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"cash\"}"}
+{"input": "Hotstar: 992.6 rupees (debit card)", "output": "{\"amount\":992.6,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.1306.91 at Jio using PhonePe", "output": "{\"amount\":1306.91,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"upi\"}"}
+{"input": "Just paid PVR Rs.830 with cash", "output": "{\"amount\":830,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹590 at PharmEasy using debit card", "output": "{\"amount\":590,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"card\"}"}
+{"input": "Decathlon: Rs 490 (GPay)", "output": "{\"amount\":490,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Vi for ₹180, paid by my card", "output": "{\"amount\":180,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "I bought something from BookMyShow for ₹2593.88, paid by my card", "output": "{\"amount\":2593.88,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"card\"}"}
+{"input": "Paid Rs.910 to Netflix via cash", "output": "{\"amount\":910,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "Rapido: Rs 370 (GPay)", "output": "{\"amount\":370,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"upi\"}"}
+{"input": "Just paid Decathlon Rs 1096.15 with GPay", "output": "{\"amount\":1096.15,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Cult.fit for Rs 590, paid by my card", "output": "{\"amount\":590,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"card\"}"}
+{"input": "Barista: 4460 rupees (PhonePe)", "output": "{\"amount\":4460,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"upi\"}"}
+{"input": "Decathlon: Rs 1690 (my card)", "output": "{\"amount\":1690,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.3600 on Flipkart, payment method GPay", "output": "{\"amount\":3600,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹1190.95 on Rapido, payment method GPay", "output": "{\"amount\":1190.95,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"upi\"}"}
+{"input": "Just paid Metro Rs.1659.3 with credit card", "output": "{\"amount\":1659.3,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"card\"}"}
+{"input": "Just paid IRCTC Rs.4390 with PhonePe", "output": "{\"amount\":4390,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"upi\"}"}
+{"input": "Just paid Jio Rs 3420 with debit card", "output": "{\"amount\":3420,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.1448.12 on Netflix, payment method in cash", "output": "{\"amount\":1448.12,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹1091.4 at Steam using credit card", "output": "{\"amount\":1091.4,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"card\"}"}
+{"input": "I bought something from Rapido for Rs.3350, paid by cash", "output": "{\"amount\":3350,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"cash\"}"}
+{"input": "Airtel: Rs 2660 (cash)", "output": "{\"amount\":2660,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Decathlon for Rs 2610, paid by PhonePe", "output": "{\"amount\":2610,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹4970 at Barista using in cash", "output": "{\"amount\":4970,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs 4060 on PharmEasy, payment method GPay", "output": "{\"amount\":4060,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Tata Power for Rs.3610, paid by UPI", "output": "{\"amount\":3610,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"upi\"}"}
+{"input": "Just paid Domino's ₹1800 with cash", "output": "{\"amount\":1800,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"cash\"}"}
+{"input": "Ola: Rs.1740 (credit card)", "output": "{\"amount\":1740,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"card\"}"}
+{"input": "IRCTC: Rs.3410 (credit card)", "output": "{\"amount\":3410,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "Just paid Haldiram's ₹2040 with in cash", "output": "{\"amount\":2040,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹206.44 on Ola, payment method PhonePe", "output": "{\"amount\":206.44,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.1390 on Rapido, payment method UPI", "output": "{\"amount\":1390,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Practo for 1769.27 rupees, paid by debit card", "output": "{\"amount\":1769.27,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"card\"}"}
+{"input": "I bought something from Vi for Rs 1778.7, paid by in cash", "output": "{\"amount\":1778.7,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs 3600 on Swiggy, payment method UPI", "output": "{\"amount\":3600,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "Netflix: Rs 2210 (credit card)", "output": "{\"amount\":2210,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"card\"}"}
+{"input": "1mg: Rs 536.24 (my card)", "output": "{\"amount\":536.24,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "Spent 1865.84 rupees at Flipkart using in cash", "output": "{\"amount\":1865.84,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Jio: Rs.1526.21 (in cash)", "output": "{\"amount\":1526.21,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹1476.32 on Cult.fit, payment method PhonePe", "output": "{\"amount\":1476.32,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "Paid 2800 rupees to Swiggy via UPI", "output": "{\"amount\":2800,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Vi for ₹620, paid by debit card", "output": "{\"amount\":620,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "PVR: Rs 1335.27 (credit card)", "output": "{\"amount\":1335.27,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "Swiggy: ₹1830 (UPI)", "output": "{\"amount\":1830,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs.1838.58 to Swiggy via in cash", "output": "{\"amount\":1838.58,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of 1718.82 rupees on Spotify, payment method cash", "output": "{\"amount\":1718.82,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of 2980 rupees on Spotify, payment method PhonePe", "output": "{\"amount\":2980,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"upi\"}"}
+{"input": "Just paid Apollo Pharmacy Rs 2977.61 with in cash", "output": "{\"amount\":2977.61,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"cash\"}"}
+{"input": "Ola: Rs.2289.19 (in cash)", "output": "{\"amount\":2289.19,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"cash\"}"}
+{"input": "Just paid Metro ₹1138.01 with debit card", "output": "{\"amount\":1138.01,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"card\"}"}
+{"input": "Barista: 4840 rupees (my card)", "output": "{\"amount\":4840,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"card\"}"}
+{"input": "Just paid Tata Power ₹2544.56 with credit card", "output": "{\"amount\":2544.56,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"card\"}"}
+{"input": "Tata Power: Rs 2240 (in cash)", "output": "{\"amount\":2240,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Myntra for Rs.710, paid by GPay", "output": "{\"amount\":710,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹2513.37 at Apollo Pharmacy using cash", "output": "{\"amount\":2513.37,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"cash\"}"}
+{"input": "Just paid IRCTC Rs 1294.84 with UPI", "output": "{\"amount\":1294.84,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"upi\"}"}
+{"input": "Just paid Flipkart 766.16 rupees with UPI", "output": "{\"amount\":766.16,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"upi\"}"}
+{"input": "PharmEasy: Rs 2183.45 (in cash)", "output": "{\"amount\":2183.45,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹2490 to Apollo Pharmacy via credit card", "output": "{\"amount\":2490,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"card\"}"}
+{"input": "Spent 90 rupees at Spotify using my card", "output": "{\"amount\":90,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"card\"}"}
+{"input": "Spent ₹500 at Jio using UPI", "output": "{\"amount\":500,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"upi\"}"}
+{"input": "Just paid Myntra Rs 4210 with UPI", "output": "{\"amount\":4210,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"upi\"}"}
+{"input": "Just paid PharmEasy 509.07 rupees with cash", "output": "{\"amount\":509.07,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹2582.69 at Ola using PhonePe", "output": "{\"amount\":2582.69,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Uber for Rs.4980, paid by my card", "output": "{\"amount\":4980,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"card\"}"}
+{"input": "Just paid Ola 2880 rupees with PhonePe", "output": "{\"amount\":2880,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹900.72 to Domino's via cash", "output": "{\"amount\":900.72,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹3090 on Netflix, payment method cash", "output": "{\"amount\":3090,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Domino's for Rs.4340, paid by UPI", "output": "{\"amount\":4340,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Spotify for ₹390, paid by UPI", "output": "{\"amount\":390,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"upi\"}"}
+{"input": "Uber: Rs.3260 (in cash)", "output": "{\"amount\":3260,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹1630 on Cult.fit, payment method cash", "output": "{\"amount\":1630,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Ola for ₹3290, paid by debit card", "output": "{\"amount\":3290,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.490 at Cult.fit using credit card", "output": "{\"amount\":490,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"card\"}"}
+{"input": "Spent Rs 3840 at Vi using credit card", "output": "{\"amount\":3840,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 4920 rupees on Swiggy, payment method credit card", "output": "{\"amount\":4920,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"card\"}"}
+{"input": "Just paid PVR 4040 rupees with in cash", "output": "{\"amount\":4040,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "Just paid Zomato 370 rupees with GPay", "output": "{\"amount\":370,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.330 on BookMyShow, payment method GPay", "output": "{\"amount\":330,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹2684.92 to Rapido via in cash", "output": "{\"amount\":2684.92,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"cash\"}"}
+{"input": "1mg: ₹56.62 (cash)", "output": "{\"amount\":56.62,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.2575.31 to Decathlon via cash", "output": "{\"amount\":2575.31,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹4270 on Flipkart, payment method PhonePe", "output": "{\"amount\":4270,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"upi\"}"}
+{"input": "Amazon: ₹554.45 (my card)", "output": "{\"amount\":554.45,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.2880 at Barista using GPay", "output": "{\"amount\":2880,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"upi\"}"}
+{"input": "Flipkart: Rs 2223.94 (PhonePe)", "output": "{\"amount\":2223.94,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 1648.75 to Croma via UPI", "output": "{\"amount\":1648.75,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Barista for ₹3300, paid by cash", "output": "{\"amount\":3300,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"cash\"}"}
+{"input": "Barista: Rs 1100 (my card)", "output": "{\"amount\":1100,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 4760 on Airtel, payment method in cash", "output": "{\"amount\":4760,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"cash\"}"}
+{"input": "Just paid Tata Power Rs 530 with PhonePe", "output": "{\"amount\":530,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 3440 to Airtel via my card", "output": "{\"amount\":3440,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "Myntra: 2211.35 rupees (GPay)", "output": "{\"amount\":2211.35,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹3990 to Flipkart via cash", "output": "{\"amount\":3990,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Paid 660 rupees to Swiggy via GPay", "output": "{\"amount\":660,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "Just paid Tata Power 289.45 rupees with GPay", "output": "{\"amount\":289.45,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"upi\"}"}
+{"input": "Just paid 1mg ₹996.83 with cash", "output": "{\"amount\":996.83,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"cash\"}"}
+{"input": "Paid 1580 rupees to Rapido via PhonePe", "output": "{\"amount\":1580,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs.764.56 at Barista using PhonePe", "output": "{\"amount\":764.56,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 2948.05 to Uber via cash", "output": "{\"amount\":2948.05,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"cash\"}"}
+{"input": "Spent 270.44 rupees at Tata Power using my card", "output": "{\"amount\":270.44,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"card\"}"}
+{"input": "Spent 294.1 rupees at Zomato using in cash", "output": "{\"amount\":294.1,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"cash\"}"}
+{"input": "Barista: Rs.1310.81 (cash)", "output": "{\"amount\":1310.81,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Barista for Rs 1140, paid by debit card", "output": "{\"amount\":1140,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"card\"}"}
+{"input": "Decathlon: 1858.59 rupees (cash)", "output": "{\"amount\":1858.59,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"cash\"}"}
+{"input": "Vi: Rs 2010 (UPI)", "output": "{\"amount\":2010,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "Metro: 2350.11 rupees (cash)", "output": "{\"amount\":2350.11,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"cash\"}"}
+{"input": "Paid 2030 rupees to Steam via PhonePe", "output": "{\"amount\":2030,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"upi\"}"}
+{"input": "Spent 4200 rupees at Domino's using credit card", "output": "{\"amount\":4200,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"card\"}"}
+{"input": "Paid ₹2922.46 to Vi via PhonePe", "output": "{\"amount\":2922.46,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹2753.43 to PharmEasy via PhonePe", "output": "{\"amount\":2753.43,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"upi\"}"}
+{"input": "Just paid Steam 3080 rupees with UPI", "output": "{\"amount\":3080,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs 1068.01 on Practo, payment method credit card", "output": "{\"amount\":1068.01,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"card\"}"}
+{"input": "Spent ₹240 at IRCTC using debit card", "output": "{\"amount\":240,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 50 rupees on Metro, payment method cash", "output": "{\"amount\":50,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"cash\"}"}
+{"input": "Spent 4150 rupees at Ola using PhonePe", "output": "{\"amount\":4150,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"upi\"}"}
+{"input": "Spent 2327.61 rupees at Swiggy using my card", "output": "{\"amount\":2327.61,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"card\"}"}
+{"input": "Paid Rs 1700 to Decathlon via credit card", "output": "{\"amount\":1700,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"card\"}"}
+{"input": "Paid 539.12 rupees to Cult.fit via debit card", "output": "{\"amount\":539.12,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"card\"}"}
+{"input": "Paid 3570 rupees to 1mg via in cash", "output": "{\"amount\":3570,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹3990 to Uber via my card", "output": "{\"amount\":3990,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"card\"}"}
+{"input": "Paid Rs.330.25 to PVR via credit card", "output": "{\"amount\":330.25,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "Just paid Amazon ₹520.3 with in cash", "output": "{\"amount\":520.3,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Practo for ₹1320, paid by UPI", "output": "{\"amount\":1320,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs.2290 to Amazon via credit card", "output": "{\"amount\":2290,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.560 on Netflix, payment method GPay", "output": "{\"amount\":560,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"upi\"}"}
+{"input": "I bought something from PharmEasy for ₹4380, paid by in cash", "output": "{\"amount\":4380,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.920 to Domino's via UPI", "output": "{\"amount\":920,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"upi\"}"}
+{"input": "Just paid Apollo Pharmacy Rs.3190 with credit card", "output": "{\"amount\":3190,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"card\"}"}
+{"input": "Spent ₹1313.92 at Barista using credit card", "output": "{\"amount\":1313.92,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"card\"}"}
+{"input": "Just paid Flipkart 2171.67 rupees with in cash", "output": "{\"amount\":2171.67,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.2970 to Myntra via cash", "output": "{\"amount\":2970,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.4260 to Domino's via in cash", "output": "{\"amount\":4260,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs.2931.63 at Zomato using cash", "output": "{\"amount\":2931.63,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.809.71 to Decathlon via GPay", "output": "{\"amount\":809.71,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"upi\"}"}
+{"input": "Decathlon: Rs.1390 (UPI)", "output": "{\"amount\":1390,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹3900 at Flipkart using PhonePe", "output": "{\"amount\":3900,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"upi\"}"}
+{"input": "Practo: ₹1777.38 (debit card)", "output": "{\"amount\":1777.38,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"card\"}"}
+{"input": "Steam: Rs 1434.98 (my card)", "output": "{\"amount\":1434.98,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"card\"}"}
+{"input": "Spent Rs 2970 at Amazon using PhonePe", "output": "{\"amount\":2970,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs.396.03 at Jio using cash", "output": "{\"amount\":396.03,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹788.5 at Cult.fit using cash", "output": "{\"amount\":788.5,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs.1460 at Vi using PhonePe", "output": "{\"amount\":1460,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 355.31 to 1mg via my card", "output": "{\"amount\":355.31,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "I bought something from Hotstar for ₹1696.8, paid by credit card", "output": "{\"amount\":1696.8,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.2530 at PVR using GPay", "output": "{\"amount\":2530,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs.2048.82 at Rapido using UPI", "output": "{\"amount\":2048.82,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Tata Power for 2480 rupees, paid by credit card", "output": "{\"amount\":2480,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"card\"}"}
+{"input": "Paid ₹2560 to Domino's via GPay", "output": "{\"amount\":2560,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.976.19 on Rapido, payment method debit card", "output": "{\"amount\":976.19,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"card\"}"}
+{"input": "Just paid Apollo Pharmacy Rs.4260 with in cash", "output": "{\"amount\":4260,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Vi for ₹860, paid by UPI", "output": "{\"amount\":860,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹1582.37 to 1mg via UPI", "output": "{\"amount\":1582.37,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"upi\"}"}
+{"input": "Just paid Ola 300 rupees with cash", "output": "{\"amount\":300,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"cash\"}"}
+{"input": "Just paid Rapido ₹3300 with GPay", "output": "{\"amount\":3300,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.950 on Swiggy, payment method GPay", "output": "{\"amount\":950,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "I bought something from PVR for ₹790.81, paid by UPI", "output": "{\"amount\":790.81,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 2343.89 to Barista via cash", "output": "{\"amount\":2343.89,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"cash\"}"}
+{"input": "Just paid PharmEasy ₹2140 with credit card", "output": "{\"amount\":2140,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 45.22 rupees on Barista, payment method cash", "output": "{\"amount\":45.22,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"cash\"}"}
+{"input": "Myntra: Rs 1387.81 (GPay)", "output": "{\"amount\":1387.81,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 80 rupees on Croma, payment method debit card", "output": "{\"amount\":80,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.600 at 1mg using debit card", "output": "{\"amount\":600,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "Paid 798.22 rupees to Myntra via debit card", "output": "{\"amount\":798.22,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"card\"}"}
+{"input": "Just paid Metro Rs.2411.04 with cash", "output": "{\"amount\":2411.04,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"cash\"}"}
+{"input": "Flipkart: 2992.46 rupees (credit card)", "output": "{\"amount\":2992.46,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "I bought something from Netflix for Rs 2970, paid by credit card", "output": "{\"amount\":2970,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 1437.69 rupees on PharmEasy, payment method my card", "output": "{\"amount\":1437.69,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"card\"}"}
+{"input": "Paid Rs.540 to Flipkart via my card", "output": "{\"amount\":540,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "Just paid Practo 565.54 rupees with my card", "output": "{\"amount\":565.54,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"card\"}"}
+{"input": "I bought something from Swiggy for 935.11 rupees, paid by UPI", "output": "{\"amount\":935.11,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "Croma: ₹1422.2 (GPay)", "output": "{\"amount\":1422.2,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹2160 to Metro via in cash", "output": "{\"amount\":2160,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.2680.68 to Ola via GPay", "output": "{\"amount\":2680.68,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"upi\"}"}
+{"input": "Just paid Flipkart 950 rupees with in cash", "output": "{\"amount\":950,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs 4010 on Zomato, payment method GPay", "output": "{\"amount\":4010,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"upi\"}"}
+{"input": "IRCTC: Rs.1907.79 (cash)", "output": "{\"amount\":1907.79,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"cash\"}"}
+{"input": "Spent 3790 rupees at Netflix using cash", "output": "{\"amount\":3790,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs 1887.53 to Croma via cash", "output": "{\"amount\":1887.53,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"cash\"}"}
+{"input": "Paid 2620 rupees to Practo via UPI", "output": "{\"amount\":2620,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"upi\"}"}
+{"input": "Zomato: 2710 rupees (GPay)", "output": "{\"amount\":2710,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"upi\"}"}
+{"input": "PharmEasy: Rs 1010 (GPay)", "output": "{\"amount\":1010,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs 160 at Swiggy using cash", "output": "{\"amount\":160,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹2780 on Amazon, payment method PhonePe", "output": "{\"amount\":2780,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"upi\"}"}
+{"input": "Zomato: Rs.640 (credit card)", "output": "{\"amount\":640,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"card\"}"}
+{"input": "Just paid Airtel Rs 830 with debit card", "output": "{\"amount\":830,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 1994.2 rupees on Apollo Pharmacy, payment method GPay", "output": "{\"amount\":1994.2,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Spotify for ₹3210, paid by UPI", "output": "{\"amount\":3210,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Zomato for Rs 2338.32, paid by UPI", "output": "{\"amount\":2338.32,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"upi\"}"}
+{"input": "Just paid Cult.fit Rs 2590 with UPI", "output": "{\"amount\":2590,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹500 on Tata Power, payment method cash", "output": "{\"amount\":500,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Cult.fit for ₹243.64, paid by cash", "output": "{\"amount\":243.64,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹300 to PharmEasy via GPay", "output": "{\"amount\":300,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹3830 at Domino's using PhonePe", "output": "{\"amount\":3830,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.4620 on Zomato, payment method cash", "output": "{\"amount\":4620,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"cash\"}"}
+{"input": "Amazon: Rs.2100 (GPay)", "output": "{\"amount\":2100,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs 1953.56 at Decathlon using debit card", "output": "{\"amount\":1953.56,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.3070 on Uber, payment method cash", "output": "{\"amount\":3070,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"cash\"}"}
+{"input": "Cult.fit: Rs 1841.85 (in cash)", "output": "{\"amount\":1841.85,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "Spent 1380 rupees at Airtel using GPay", "output": "{\"amount\":1380,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 687.48 rupees on 1mg, payment method my card", "output": "{\"amount\":687.48,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "Just paid Hotstar 760.76 rupees with in cash", "output": "{\"amount\":760.76,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs 4830 on Cult.fit, payment method cash", "output": "{\"amount\":4830,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Netflix for 975.49 rupees, paid by cash", "output": "{\"amount\":975.49,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "Haldiram's: ₹1250 (in cash)", "output": "{\"amount\":1250,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "Vi: ₹1352.26 (UPI)", "output": "{\"amount\":1352.26,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹2900 at Apollo Pharmacy using in cash", "output": "{\"amount\":2900,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Hotstar for Rs.1695.75, paid by debit card", "output": "{\"amount\":1695.75,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"card\"}"}
+{"input": "Just paid Amazon Rs.3970 with in cash", "output": "{\"amount\":3970,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 3930 at Practo using debit card", "output": "{\"amount\":3930,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"card\"}"}
+{"input": "Spent ₹1960 at Myntra using debit card", "output": "{\"amount\":1960,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"card\"}"}
+{"input": "Paid Rs 3170 to IRCTC via in cash", "output": "{\"amount\":3170,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"cash\"}"}
+{"input": "Spent 587.92 rupees at Barista using in cash", "output": "{\"amount\":587.92,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"cash\"}"}
+{"input": "Airtel: Rs.4000 (my card)", "output": "{\"amount\":4000,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of ₹32.93 on 1mg, payment method credit card", "output": "{\"amount\":32.93,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "Just paid Vi Rs 2732.34 with PhonePe", "output": "{\"amount\":2732.34,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "Uber: Rs.2650.43 (PhonePe)", "output": "{\"amount\":2650.43,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs.2912.07 to Spotify via GPay", "output": "{\"amount\":2912.07,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"upi\"}"}
+{"input": "Just paid IRCTC 1546.64 rupees with my card", "output": "{\"amount\":1546.64,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "Just paid 1mg 3240 rupees with credit card", "output": "{\"amount\":3240,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "Just paid Flipkart 549.88 rupees with my card", "output": "{\"amount\":549.88,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "Just paid Domino's Rs.4870 with debit card", "output": "{\"amount\":4870,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"card\"}"}
+{"input": "1mg: ₹1577.74 (GPay)", "output": "{\"amount\":1577.74,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Uber for Rs 3890, paid by credit card", "output": "{\"amount\":3890,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"card\"}"}
+{"input": "I bought something from Practo for ₹899.52, paid by cash", "output": "{\"amount\":899.52,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.2597.23 to Airtel via my card", "output": "{\"amount\":2597.23,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "PVR: Rs.2000 (my card)", "output": "{\"amount\":2000,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 1330 on Practo, payment method credit card", "output": "{\"amount\":1330,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"card\"}"}
+{"input": "Just paid Jio Rs 1115.87 with my card", "output": "{\"amount\":1115.87,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"card\"}"}
+{"input": "Just paid Rapido Rs 241.92 with UPI", "output": "{\"amount\":241.92,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"upi\"}"}
+{"input": "Paid 2890 rupees to BookMyShow via UPI", "output": "{\"amount\":2890,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs 3680 at Metro using UPI", "output": "{\"amount\":3680,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"upi\"}"}
+{"input": "Rapido: 1883.59 rupees (credit card)", "output": "{\"amount\":1883.59,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"card\"}"}
+{"input": "Paid Rs 967.22 to Hotstar via UPI", "output": "{\"amount\":967.22,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs.2790 at BookMyShow using credit card", "output": "{\"amount\":2790,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 1550 on Flipkart, payment method in cash", "output": "{\"amount\":1550,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "Steam: 3470 rupees (my card)", "output": "{\"amount\":3470,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"card\"}"}
+{"input": "Metro: 2054.0 rupees (credit card)", "output": "{\"amount\":2054.0,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 93.62 rupees on Barista, payment method PhonePe", "output": "{\"amount\":93.62,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Steam for Rs 3380, paid by UPI", "output": "{\"amount\":3380,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"upi\"}"}
+{"input": "Just paid BookMyShow ₹2324.49 with cash", "output": "{\"amount\":2324.49,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs.2597.55 at Swiggy using my card", "output": "{\"amount\":2597.55,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"card\"}"}
+{"input": "Just paid Metro ₹1946.75 with my card", "output": "{\"amount\":1946.75,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"card\"}"}
+{"input": "Spent ₹132.9 at PharmEasy using in cash", "output": "{\"amount\":132.9,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Rapido: 1210 rupees (credit card)", "output": "{\"amount\":1210,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"card\"}"}
+{"input": "Just paid Netflix Rs.130 with debit card", "output": "{\"amount\":130,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"card\"}"}
+{"input": "I bought something from Haldiram's for ₹1765.11, paid by cash", "output": "{\"amount\":1765.11,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "BookMyShow: 490 rupees (PhonePe)", "output": "{\"amount\":490,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 2780 to Netflix via credit card", "output": "{\"amount\":2780,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"card\"}"}
+{"input": "Spent 449.35 rupees at Cult.fit using debit card", "output": "{\"amount\":449.35,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.2980 on Hotstar, payment method cash", "output": "{\"amount\":2980,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"cash\"}"}
+{"input": "Paid 2712.57 rupees to BookMyShow via UPI", "output": "{\"amount\":2712.57,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"upi\"}"}
+{"input": "Paid 3200 rupees to Vi via cash", "output": "{\"amount\":3200,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"cash\"}"}
+{"input": "Just paid Swiggy Rs.2557.14 with my card", "output": "{\"amount\":2557.14,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"card\"}"}
+{"input": "Just paid BookMyShow Rs 550 with PhonePe", "output": "{\"amount\":550,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs 3400 at Steam using GPay", "output": "{\"amount\":3400,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 2350 rupees on Croma, payment method cash", "output": "{\"amount\":2350,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Practo for 2950 rupees, paid by my card", "output": "{\"amount\":2950,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"card\"}"}
+{"input": "I bought something from Jio for Rs.1180, paid by in cash", "output": "{\"amount\":1180,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"cash\"}"}
+{"input": "Flipkart: Rs.2500 (my card)", "output": "{\"amount\":2500,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "I bought something from Myntra for ₹3350, paid by PhonePe", "output": "{\"amount\":3350,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹1887.32 at Metro using in cash", "output": "{\"amount\":1887.32,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 3070 at BookMyShow using my card", "output": "{\"amount\":3070,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"card\"}"}
+{"input": "I bought something from PVR for Rs 4010, paid by my card", "output": "{\"amount\":4010,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "Jio: ₹418.97 (my card)", "output": "{\"amount\":418.97,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 2423.49 on Croma, payment method cash", "output": "{\"amount\":2423.49,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"cash\"}"}
+{"input": "Just paid IRCTC Rs 2940 with cash", "output": "{\"amount\":2940,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 2540 at Cult.fit using UPI", "output": "{\"amount\":2540,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "Myntra: 1563.3 rupees (cash)", "output": "{\"amount\":1563.3,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"cash\"}"}
+{"input": "Just paid Netflix 985.73 rupees with cash", "output": "{\"amount\":985.73,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Croma for Rs.3390, paid by my card", "output": "{\"amount\":3390,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 4690 on BookMyShow, payment method debit card", "output": "{\"amount\":4690,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of ₹2663.77 on Tata Power, payment method GPay", "output": "{\"amount\":2663.77,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"upi\"}"}
+{"input": "Paid 3340 rupees to IRCTC via cash", "output": "{\"amount\":3340,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"cash\"}"}
+{"input": "Ola: Rs 2454.53 (in cash)", "output": "{\"amount\":2454.53,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"cash\"}"}
+{"input": "Just paid Amazon Rs 1120 with PhonePe", "output": "{\"amount\":1120,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 3080 to Airtel via cash", "output": "{\"amount\":3080,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs 1370 on 1mg, payment method cash", "output": "{\"amount\":1370,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"cash\"}"}
+{"input": "Spent 3730 rupees at Vi using my card", "output": "{\"amount\":3730,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.528.29 on IRCTC, payment method debit card", "output": "{\"amount\":528.29,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "Metro: 3560 rupees (in cash)", "output": "{\"amount\":3560,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹720 at Hotstar using cash", "output": "{\"amount\":720,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹810 to Metro via my card", "output": "{\"amount\":810,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"card\"}"}
+{"input": "Spent ₹1603.66 at Vi using credit card", "output": "{\"amount\":1603.66,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.2692.97 on Jio, payment method my card", "output": "{\"amount\":2692.97,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"card\"}"}
+{"input": "Tata Power: Rs.4150 (in cash)", "output": "{\"amount\":4150,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Croma for Rs 2220, paid by my card", "output": "{\"amount\":2220,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"card\"}"}
+{"input": "I bought something from Jio for Rs.2830, paid by in cash", "output": "{\"amount\":2830,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹1742.4 on Uber, payment method my card", "output": "{\"amount\":1742.4,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"card\"}"}
+{"input": "Spent 961.39 rupees at Barista using credit card", "output": "{\"amount\":961.39,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.4420 on IRCTC, payment method my card", "output": "{\"amount\":4420,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.1090 on Croma, payment method PhonePe", "output": "{\"amount\":1090,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Steam for 2520 rupees, paid by in cash", "output": "{\"amount\":2520,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"cash\"}"}
+{"input": "Just paid PVR ₹2567.9 with debit card", "output": "{\"amount\":2567.9,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "I bought something from IRCTC for Rs.2650, paid by credit card", "output": "{\"amount\":2650,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "Spent ₹499.0 at Hotstar using my card", "output": "{\"amount\":499.0,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"card\"}"}
+{"input": "I bought something from IRCTC for Rs 1390, paid by debit card", "output": "{\"amount\":1390,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "Just paid Haldiram's 1213.92 rupees with in cash", "output": "{\"amount\":1213.92,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "Paid 1080 rupees to BookMyShow via in cash", "output": "{\"amount\":1080,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Haldiram's for ₹1853.27, paid by my card", "output": "{\"amount\":1853.27,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"card\"}"}
+{"input": "Just paid Uber 2343.43 rupees with cash", "output": "{\"amount\":2343.43,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹3820 at Netflix using credit card", "output": "{\"amount\":3820,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"card\"}"}
+{"input": "Paid 1057.32 rupees to PVR via my card", "output": "{\"amount\":1057.32,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "Spotify: Rs 1380 (GPay)", "output": "{\"amount\":1380,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹1790 on BookMyShow, payment method credit card", "output": "{\"amount\":1790,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"card\"}"}
+{"input": "Paid Rs.2898.85 to Croma via debit card", "output": "{\"amount\":2898.85,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.2588.83 at Decathlon using debit card", "output": "{\"amount\":2588.83,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"card\"}"}
+{"input": "I bought something from Amazon for Rs 676.74, paid by PhonePe", "output": "{\"amount\":676.74,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"upi\"}"}
+{"input": "Paid 4310 rupees to Tata Power via my card", "output": "{\"amount\":4310,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"card\"}"}
+{"input": "Amazon: Rs 1039.14 (PhonePe)", "output": "{\"amount\":1039.14,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"upi\"}"}
+{"input": "Myntra: Rs 3870 (in cash)", "output": "{\"amount\":3870,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs 636.2 to PharmEasy via cash", "output": "{\"amount\":636.2,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.450 on PVR, payment method cash", "output": "{\"amount\":450,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.1660 on Haldiram's, payment method in cash", "output": "{\"amount\":1660,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 3890 at Decathlon using in cash", "output": "{\"amount\":3890,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"cash\"}"}
+{"input": "Just paid Steam Rs.1820 with PhonePe", "output": "{\"amount\":1820,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"upi\"}"}
+{"input": "Just paid IRCTC ₹90 with in cash", "output": "{\"amount\":90,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"cash\"}"}
+{"input": "Paid 3180 rupees to IRCTC via credit card", "output": "{\"amount\":3180,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "I bought something from PVR for 3180 rupees, paid by in cash", "output": "{\"amount\":3180,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "I bought something from IRCTC for 3900 rupees, paid by UPI", "output": "{\"amount\":3900,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs 2990 at Tata Power using UPI", "output": "{\"amount\":2990,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"upi\"}"}
+{"input": "Practo: Rs 604.27 (in cash)", "output": "{\"amount\":604.27,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"cash\"}"}
+{"input": "Swiggy: 4620 rupees (GPay)", "output": "{\"amount\":4620,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs 550 at Myntra using my card", "output": "{\"amount\":550,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"card\"}"}
+{"input": "I bought something from Rapido for 3860 rupees, paid by PhonePe", "output": "{\"amount\":3860,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"upi\"}"}
+{"input": "Myntra: ₹787.99 (my card)", "output": "{\"amount\":787.99,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"card\"}"}
+{"input": "I bought something from Domino's for Rs 2990, paid by my card", "output": "{\"amount\":2990,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.3820 at Myntra using my card", "output": "{\"amount\":3820,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"card\"}"}
+{"input": "Just paid Vi Rs 451.65 with GPay", "output": "{\"amount\":451.65,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "Spent ₹4390 at Decathlon using my card", "output": "{\"amount\":4390,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 1540 rupees on Rapido, payment method in cash", "output": "{\"amount\":1540,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"cash\"}"}
+{"input": "Cult.fit: Rs.2817.53 (GPay)", "output": "{\"amount\":2817.53,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹1992.83 to Ola via cash", "output": "{\"amount\":1992.83,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.4540 on IRCTC, payment method cash", "output": "{\"amount\":4540,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of 268.09 rupees on Zomato, payment method PhonePe", "output": "{\"amount\":268.09,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"upi\"}"}
+{"input": "Uber: 1310 rupees (debit card)", "output": "{\"amount\":1310,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"card\"}"}
+{"input": "I bought something from PharmEasy for 3440 rupees, paid by cash", "output": "{\"amount\":3440,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs 740 on Netflix, payment method debit card", "output": "{\"amount\":740,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"card\"}"}
+{"input": "I bought something from Steam for 1700.67 rupees, paid by my card", "output": "{\"amount\":1700.67,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"card\"}"}
+{"input": "I bought something from Vi for Rs.1920, paid by cash", "output": "{\"amount\":1920,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Rapido for Rs 3930, paid by cash", "output": "{\"amount\":3930,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Decathlon for Rs.1485.96, paid by credit card", "output": "{\"amount\":1485.96,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"card\"}"}
+{"input": "Paid 80 rupees to Barista via PhonePe", "output": "{\"amount\":80,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"upi\"}"}
+{"input": "Vi: Rs.3710 (GPay)", "output": "{\"amount\":3710,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Rapido for 1559.5 rupees, paid by in cash", "output": "{\"amount\":1559.5,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs 400 to 1mg via GPay", "output": "{\"amount\":400,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs.830.96 to Amazon via debit card", "output": "{\"amount\":830.96,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"card\"}"}
+{"input": "I bought something from Amazon for ₹85.95, paid by cash", "output": "{\"amount\":85.95,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 713.78 at Flipkart using debit card", "output": "{\"amount\":713.78,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "I bought something from Jio for Rs.4140, paid by GPay", "output": "{\"amount\":4140,\"category\":\"bills\",\"merchant\":\"Jio\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Airtel for ₹2855.9, paid by UPI", "output": "{\"amount\":2855.9,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"upi\"}"}
+{"input": "Airtel: 4630 rupees (debit card)", "output": "{\"amount\":4630,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"card\"}"}
+{"input": "Just paid Zomato Rs 2310 with credit card", "output": "{\"amount\":2310,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"card\"}"}
+{"input": "Swiggy: Rs 1572.99 (PhonePe)", "output": "{\"amount\":1572.99,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Tata Power for ₹145.71, paid by UPI", "output": "{\"amount\":145.71,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs 2593.7 at Tata Power using in cash", "output": "{\"amount\":2593.7,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"cash\"}"}
+{"input": "IRCTC: ₹1460 (UPI)", "output": "{\"amount\":1460,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹481.88 to Uber via in cash", "output": "{\"amount\":481.88,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"cash\"}"}
+{"input": "Spent ₹2990.98 at IRCTC using in cash", "output": "{\"amount\":2990.98,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Flipkart for Rs 394.97, paid by my card", "output": "{\"amount\":394.97,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "I bought something from PVR for Rs.3570, paid by PhonePe", "output": "{\"amount\":3570,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 2290 rupees on PharmEasy, payment method UPI", "output": "{\"amount\":2290,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Cult.fit for Rs.1700, paid by cash", "output": "{\"amount\":1700,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Hotstar for 2350 rupees, paid by cash", "output": "{\"amount\":2350,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 1527.75 at PVR using UPI", "output": "{\"amount\":1527.75,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs.370 to PVR via credit card", "output": "{\"amount\":370,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"card\"}"}
+{"input": "Spent 981.35 rupees at Steam using credit card", "output": "{\"amount\":981.35,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"card\"}"}
+{"input": "Paid Rs 4850 to Haldiram's via credit card", "output": "{\"amount\":4850,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"card\"}"}
+{"input": "Just paid Swiggy Rs.210 with in cash", "output": "{\"amount\":210,\"category\":\"food\",\"merchant\":\"Swiggy\",\"payment\":\"cash\"}"}
+{"input": "Paid 300 rupees to Vi via my card", "output": "{\"amount\":300,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "BookMyShow: ₹2786.64 (cash)", "output": "{\"amount\":2786.64,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"cash\"}"}
+{"input": "Just paid Apollo Pharmacy 2673.48 rupees with PhonePe", "output": "{\"amount\":2673.48,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"upi\"}"}
+{"input": "Spent 410 rupees at Haldiram's using PhonePe", "output": "{\"amount\":410,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 1604.35 to Metro via cash", "output": "{\"amount\":1604.35,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"cash\"}"}
+{"input": "Just paid Spotify Rs.1684.1 with my card", "output": "{\"amount\":1684.1,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"card\"}"}
+{"input": "Spent Rs.3450 at Haldiram's using PhonePe", "output": "{\"amount\":3450,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs 3410 on Ola, payment method debit card", "output": "{\"amount\":3410,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"card\"}"}
+{"input": "Steam: 1710 rupees (GPay)", "output": "{\"amount\":1710,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"upi\"}"}
+{"input": "Cult.fit: Rs 1698.17 (debit card)", "output": "{\"amount\":1698.17,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"card\"}"}
+{"input": "Just paid PVR ₹2080 with GPay", "output": "{\"amount\":2080,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"upi\"}"}
+{"input": "Spent 4600 rupees at Domino's using credit card", "output": "{\"amount\":4600,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of 4250 rupees on Flipkart, payment method in cash", "output": "{\"amount\":4250,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Hotstar for Rs.240, paid by my card", "output": "{\"amount\":240,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"card\"}"}
+{"input": "I bought something from Ola for 764.57 rupees, paid by GPay", "output": "{\"amount\":764.57,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"upi\"}"}
+{"input": "Haldiram's: 2208.11 rupees (PhonePe)", "output": "{\"amount\":2208.11,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹4690 on IRCTC, payment method my card", "output": "{\"amount\":4690,\"category\":\"transport\",\"merchant\":\"IRCTC\",\"payment\":\"card\"}"}
+{"input": "I bought something from Practo for 330 rupees, paid by in cash", "output": "{\"amount\":330,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"cash\"}"}
+{"input": "Just paid Netflix ₹2551.44 with cash", "output": "{\"amount\":2551.44,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Cult.fit for Rs 1680, paid by in cash", "output": "{\"amount\":1680,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.2992.15 on Spotify, payment method cash", "output": "{\"amount\":2992.15,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.4070 to Hotstar via cash", "output": "{\"amount\":4070,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Rapido for Rs.300, paid by in cash", "output": "{\"amount\":300,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"cash\"}"}
+{"input": "Barista: Rs 408.52 (debit card)", "output": "{\"amount\":408.52,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"card\"}"}
+{"input": "Paid Rs 604.38 to Spotify via GPay", "output": "{\"amount\":604.38,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"upi\"}"}
+{"input": "Just paid Domino's ₹1736.53 with GPay", "output": "{\"amount\":1736.53,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Netflix for ₹1810, paid by GPay", "output": "{\"amount\":1810,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 1332.58 to Rapido via debit card", "output": "{\"amount\":1332.58,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 320 on Practo, payment method cash", "output": "{\"amount\":320,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"cash\"}"}
+{"input": "Rapido: Rs.351.61 (in cash)", "output": "{\"amount\":351.61,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of 2720 rupees on Domino's, payment method cash", "output": "{\"amount\":2720,\"category\":\"food\",\"merchant\":\"Domino's\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of Rs.2011.42 on Vi, payment method credit card", "output": "{\"amount\":2011.42,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "Just paid 1mg Rs 1500 with in cash", "output": "{\"amount\":1500,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"cash\"}"}
+{"input": "Just paid PVR Rs.44.84 with in cash", "output": "{\"amount\":44.84,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.4570 to Myntra via cash", "output": "{\"amount\":4570,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹1464.29 to Vi via credit card", "output": "{\"amount\":1464.29,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs 84.04 on Metro, payment method PhonePe", "output": "{\"amount\":84.04,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Myntra for 74.75 rupees, paid by GPay", "output": "{\"amount\":74.75,\"category\":\"shopping\",\"merchant\":\"Myntra\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs.1884.86 at Practo using in cash", "output": "{\"amount\":1884.86,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 2060 at PVR using cash", "output": "{\"amount\":2060,\"category\":\"entertainment\",\"merchant\":\"PVR\",\"payment\":\"cash\"}"}
+{"input": "Cult.fit: Rs 1884.06 (my card)", "output": "{\"amount\":1884.06,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"card\"}"}
+{"input": "Metro: 2731.01 rupees (in cash)", "output": "{\"amount\":2731.01,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs 3550 to Spotify via cash", "output": "{\"amount\":3550,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"cash\"}"}
+{"input": "Just paid Croma Rs 2927.82 with in cash", "output": "{\"amount\":2927.82,\"category\":\"shopping\",\"merchant\":\"Croma\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹4900 to Spotify via UPI", "output": "{\"amount\":4900,\"category\":\"entertainment\",\"merchant\":\"Spotify\",\"payment\":\"upi\"}"}
+{"input": "Flipkart: Rs.2642.79 (credit card)", "output": "{\"amount\":2642.79,\"category\":\"shopping\",\"merchant\":\"Flipkart\",\"payment\":\"card\"}"}
+{"input": "Spent Rs 835.91 at Decathlon using my card", "output": "{\"amount\":835.91,\"category\":\"shopping\",\"merchant\":\"Decathlon\",\"payment\":\"card\"}"}
+{"input": "Paid Rs 1844.84 to Ola via in cash", "output": "{\"amount\":1844.84,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"cash\"}"}
+{"input": "Just paid Apollo Pharmacy Rs.1440.27 with UPI", "output": "{\"amount\":1440.27,\"category\":\"health\",\"merchant\":\"Apollo Pharmacy\",\"payment\":\"upi\"}"}
+{"input": "Paid Rs 750 to Practo via in cash", "output": "{\"amount\":750,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"cash\"}"}
+{"input": "Just paid Uber Rs 2851.59 with UPI", "output": "{\"amount\":2851.59,\"category\":\"transport\",\"merchant\":\"Uber\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs.4930 on PharmEasy, payment method cash", "output": "{\"amount\":4930,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Please log an expense of ₹4020 on Tata Power, payment method UPI", "output": "{\"amount\":4020,\"category\":\"bills\",\"merchant\":\"Tata Power\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹4850 on Cult.fit, payment method debit card", "output": "{\"amount\":4850,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"card\"}"}
+{"input": "Just paid Barista Rs.752.25 with UPI", "output": "{\"amount\":752.25,\"category\":\"food\",\"merchant\":\"Barista\",\"payment\":\"upi\"}"}
+{"input": "I bought something from Haldiram's for Rs 2888.53, paid by PhonePe", "output": "{\"amount\":2888.53,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of 2210 rupees on Netflix, payment method GPay", "output": "{\"amount\":2210,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"upi\"}"}
+{"input": "Paid ₹1366.06 to Haldiram's via in cash", "output": "{\"amount\":1366.06,\"category\":\"food\",\"merchant\":\"Haldiram's\",\"payment\":\"cash\"}"}
+{"input": "Paid ₹2350 to Hotstar via in cash", "output": "{\"amount\":2350,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"cash\"}"}
+{"input": "Just paid Vi 288.74 rupees with credit card", "output": "{\"amount\":288.74,\"category\":\"bills\",\"merchant\":\"Vi\",\"payment\":\"card\"}"}
+{"input": "Just paid PharmEasy Rs.630 with my card", "output": "{\"amount\":630,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"card\"}"}
+{"input": "Amazon: Rs 4100 (my card)", "output": "{\"amount\":4100,\"category\":\"shopping\",\"merchant\":\"Amazon\",\"payment\":\"card\"}"}
+{"input": "Paid Rs 1705.16 to Steam via cash", "output": "{\"amount\":1705.16,\"category\":\"entertainment\",\"merchant\":\"Steam\",\"payment\":\"cash\"}"}
+{"input": "I bought something from Ola for Rs.1630, paid by credit card", "output": "{\"amount\":1630,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"card\"}"}
+{"input": "Spent 30.53 rupees at PharmEasy using cash", "output": "{\"amount\":30.53,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.1831.79 to Netflix via PhonePe", "output": "{\"amount\":1831.79,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of ₹2310 on Metro, payment method debit card", "output": "{\"amount\":2310,\"category\":\"transport\",\"merchant\":\"Metro\",\"payment\":\"card\"}"}
+{"input": "Spent Rs 1681.49 at BookMyShow using in cash", "output": "{\"amount\":1681.49,\"category\":\"entertainment\",\"merchant\":\"BookMyShow\",\"payment\":\"cash\"}"}
+{"input": "Just paid Ola ₹4420 with in cash", "output": "{\"amount\":4420,\"category\":\"transport\",\"merchant\":\"Ola\",\"payment\":\"cash\"}"}
+{"input": "Paid Rs.166.11 to Hotstar via GPay", "output": "{\"amount\":166.11,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"upi\"}"}
+{"input": "Rapido: Rs 1793.01 (my card)", "output": "{\"amount\":1793.01,\"category\":\"transport\",\"merchant\":\"Rapido\",\"payment\":\"card\"}"}
+{"input": "I bought something from 1mg for 1580 rupees, paid by UPI", "output": "{\"amount\":1580,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"upi\"}"}
+{"input": "Spent Rs 2460 at Airtel using PhonePe", "output": "{\"amount\":2460,\"category\":\"bills\",\"merchant\":\"Airtel\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs 1120 on Practo, payment method PhonePe", "output": "{\"amount\":1120,\"category\":\"health\",\"merchant\":\"Practo\",\"payment\":\"upi\"}"}
+{"input": "Zomato: ₹1596.26 (my card)", "output": "{\"amount\":1596.26,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"card\"}"}
+{"input": "I bought something from 1mg for 4390 rupees, paid by debit card", "output": "{\"amount\":4390,\"category\":\"health\",\"merchant\":\"1mg\",\"payment\":\"card\"}"}
+{"input": "Please log an expense of Rs.1850.58 on Hotstar, payment method debit card", "output": "{\"amount\":1850.58,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"card\"}"}
+{"input": "Paid 713.51 rupees to Cult.fit via UPI", "output": "{\"amount\":713.51,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"upi\"}"}
+{"input": "Please log an expense of Rs 371.42 on Zomato, payment method in cash", "output": "{\"amount\":371.42,\"category\":\"food\",\"merchant\":\"Zomato\",\"payment\":\"cash\"}"}
+{"input": "Spent Rs 4170 at Netflix using in cash", "output": "{\"amount\":4170,\"category\":\"bills\",\"merchant\":\"Netflix\",\"payment\":\"cash\"}"}
+{"input": "I bought something from PharmEasy for 390 rupees, paid by debit card", "output": "{\"amount\":390,\"category\":\"health\",\"merchant\":\"PharmEasy\",\"payment\":\"card\"}"}
+{"input": "Hotstar: 1750 rupees (UPI)", "output": "{\"amount\":1750,\"category\":\"entertainment\",\"merchant\":\"Hotstar\",\"payment\":\"upi\"}"}

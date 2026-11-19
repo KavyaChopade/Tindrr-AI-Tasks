@@ -1,0 +1,974 @@
+{
+  "base": [
+    {
+      "input": "Just paid 1mg 598.17 rupees with credit card",
+      "gold": {
+        "amount": 598.17,
+        "category": "health",
+        "merchant": "1mg",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 1598.17,\n  \"category\": \"food\",\n  \"merchant\": \"credit card\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Please log an expense of Rs.3260 on Netflix, payment method cash",
+      "gold": {
+        "amount": 3260,
+        "category": "bills",
+        "merchant": "Netflix",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 3260,\n  \"category\": \"entertainment\",\n  \"merchant\": \"Netflix\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Please log an expense of 2710 rupees on Decathlon, payment method PhonePe",
+      "gold": {
+        "amount": 2710,
+        "category": "shopping",
+        "merchant": "Decathlon",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 2710,\n  \"category\": \"food\",\n  \"merchant\": \"Decathlon\",\n  \"payment\": \"PhonePe\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "I bought something from Practo for 3000 rupees, paid by my card",
+      "gold": {
+        "amount": 3000,
+        "category": "health",
+        "merchant": "Practo",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 3000,\n  \"category\": \"shopping\",\n  \"merchant\": \"Practo\",\n  \"payment\": \"card\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Please log an expense of Rs 1970 on Swiggy, payment method UPI",
+      "gold": {
+        "amount": 1970,
+        "category": "food",
+        "merchant": "Swiggy",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 1970,\n  \"category\": \"transport\",\n  \"merchant\": \"Swiggy\",\n  \"payment\": \"UPI\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Just paid Steam 2259.59 rupees with cash",
+      "gold": {
+        "amount": 2259.59,
+        "category": "entertainment",
+        "merchant": "Steam",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 2259.59,\n  \"category\": \"food\",\n  \"merchant\": \"Steam\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Domino's: 1260 rupees (UPI)",
+      "gold": {
+        "amount": 1260,
+        "category": "food",
+        "merchant": "Domino's",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 1260,\n  \"category\": \"transport\",\n  \"merchant\": \"Domino's\",\n  \"payment\": \"UPI\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Paid ₹1960 to Flipkart via debit card",
+      "gold": {
+        "amount": 1960,
+        "category": "shopping",
+        "merchant": "Flipkart",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 1960,\n  \"category\": \"food\",\n  \"merchant\": \"Flipkart\",\n  \"payment\": \"debit\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Paid Rs 2716.77 to Barista via credit card",
+      "gold": {
+        "amount": 2716.77,
+        "category": "food",
+        "merchant": "Barista",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 2716.77,\n  \"category\": \"food\",\n  \"merchant\": \"Barista\",\n  \"payment\": \"credit card\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Spent ₹3700 at Spotify using cash",
+      "gold": {
+        "amount": 3700,
+        "category": "entertainment",
+        "merchant": "Spotify",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 3700,\n  \"category\": \"food\",\n  \"merchant\": \"Spotify\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Paid Rs 645.34 to PVR via in cash",
+      "gold": {
+        "amount": 645.34,
+        "category": "entertainment",
+        "merchant": "PVR",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 645.34,\n  \"category\": \"food\",\n  \"merchant\": \"PVR\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Paid 2019.95 rupees to Myntra via debit card",
+      "gold": {
+        "amount": 2019.95,
+        "category": "shopping",
+        "merchant": "Myntra",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 2019.95,\n  \"category\": \"food\",\n  \"merchant\": \"Myntra\",\n  \"payment\": \"debit\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Paid ₹1687.68 to Rapido via cash",
+      "gold": {
+        "amount": 1687.68,
+        "category": "transport",
+        "merchant": "Rapido",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 1687.68,\n  \"category\": \"food\",\n  \"merchant\": \"Rapido\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Please log an expense of 4870 rupees on PVR, payment method debit card",
+      "gold": {
+        "amount": 4870,
+        "category": "entertainment",
+        "merchant": "PVR",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 4870,\n  \"category\": \"food\",\n  \"merchant\": \"PVR\",\n  \"payment\": \"debit card\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Spent Rs.1029.44 at Ola using in cash",
+      "gold": {
+        "amount": 1029.44,
+        "category": "transport",
+        "merchant": "Ola",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 1029.44,\n  \"category\": \"food\",\n  \"merchant\": \"Ola\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Spent ₹2010 at Uber using PhonePe",
+      "gold": {
+        "amount": 2010,
+        "category": "transport",
+        "merchant": "Uber",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 2010,\n  \"category\": \"transport\",\n  \"merchant\": \"Uber\",\n  \"payment\": \"phonepe\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Just paid Netflix Rs 951.07 with in cash",
+      "gold": {
+        "amount": 951.07,
+        "category": "bills",
+        "merchant": "Netflix",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 951.07,\n  \"category\": \"food\",\n  \"merchant\": \"Netflix\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Spent Rs.520 at 1mg using in cash",
+      "gold": {
+        "amount": 520,
+        "category": "health",
+        "merchant": "1mg",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 520,\n  \"category\": \"food\",\n  \"merchant\": \"cash\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Paid Rs 1406.88 to Tata Power via my card",
+      "gold": {
+        "amount": 1406.88,
+        "category": "bills",
+        "merchant": "Tata Power",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 1406.88,\n  \"category\": \"transport\",\n  \"merchant\": \"Tata Power\",\n  \"payment\": \"card\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "I bought something from Metro for 3630 rupees, paid by GPay",
+      "gold": {
+        "amount": 3630,
+        "category": "transport",
+        "merchant": "Metro",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 3630,\n  \"category\": \"food\",\n  \"merchant\": \"Metro\",\n  \"payment\": \"GPay\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Netflix: Rs.1840 (cash)",
+      "gold": {
+        "amount": 1840,
+        "category": "bills",
+        "merchant": "Netflix",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 1840,\n  \"category\": \"food\",\n  \"merchant\": \"Netflix\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Rapido: ₹2650 (PhonePe)",
+      "gold": {
+        "amount": 2650,
+        "category": "transport",
+        "merchant": "Rapido",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 2650,\n  \"category\": \"food\",\n  \"merchant\": \"PhonePe\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Apollo Pharmacy: Rs.2381.44 (PhonePe)",
+      "gold": {
+        "amount": 2381.44,
+        "category": "health",
+        "merchant": "Apollo Pharmacy",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 2381.44,\n  \"category\": \"shopping\",\n  \"merchant\": \"Apollo Pharmacy\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Spent Rs.2510 at Steam using cash",
+      "gold": {
+        "amount": 2510,
+        "category": "entertainment",
+        "merchant": "Steam",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 2510,\n  \"category\": \"food\",\n  \"merchant\": \"Steam\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Spent Rs.2141.49 at PharmEasy using cash",
+      "gold": {
+        "amount": 2141.49,
+        "category": "health",
+        "merchant": "PharmEasy",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 2141.49,\n  \"category\": \"food\",\n  \"merchant\": \"PharmEasy\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Paid Rs.4250 to Hotstar via GPay",
+      "gold": {
+        "amount": 4250,
+        "category": "entertainment",
+        "merchant": "Hotstar",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 4250,\n  \"category\": \"transport\",\n  \"merchant\": \"Hotstar\",\n  \"payment\": \"gpay\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "I bought something from Decathlon for Rs.1797.29, paid by cash",
+      "gold": {
+        "amount": 1797.29,
+        "category": "shopping",
+        "merchant": "Decathlon",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 1797.29,\n  \"category\": \"food\",\n  \"merchant\": \"Decathlon\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Paid ₹2664.04 to Airtel via cash",
+      "gold": {
+        "amount": 2664.04,
+        "category": "bills",
+        "merchant": "Airtel",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 2664.04,\n  \"category\": \"food\",\n  \"merchant\": \"Airtel\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Paid Rs.3200 to PharmEasy via PhonePe",
+      "gold": {
+        "amount": 3200,
+        "category": "health",
+        "merchant": "PharmEasy",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 3200,\n  \"category\": \"shopping\",\n  \"merchant\": \"PharmEasy\",\n  \"payment\": \"phonepe\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Just paid Rapido Rs.2045.09 with PhonePe",
+      "gold": {
+        "amount": 2045.09,
+        "category": "transport",
+        "merchant": "Rapido",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 2045.09,\n  \"category\": \"shopping\",\n  \"merchant\": \"Rapido\",\n  \"payment\": \"PhonePe\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "I bought something from Amazon for Rs 1541.06, paid by credit card",
+      "gold": {
+        "amount": 1541.06,
+        "category": "shopping",
+        "merchant": "Amazon",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 1541.06,\n  \"category\": \"shopping\",\n  \"merchant\": \"Amazon\",\n  \"payment\": \"credit_card\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Spent 2910 rupees at Domino's using credit card",
+      "gold": {
+        "amount": 2910,
+        "category": "food",
+        "merchant": "Domino's",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 2910,\n  \"category\": \"food\",\n  \"merchant\": \"Domino's\",\n  \"payment\": \"credit card\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Just paid Amazon 1194.92 rupees with in cash",
+      "gold": {
+        "amount": 1194.92,
+        "category": "shopping",
+        "merchant": "Amazon",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 1194.92,\n  \"category\": \"food\",\n  \"merchant\": \"Amazon\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Netflix: Rs 3440 (GPay)",
+      "gold": {
+        "amount": 3440,
+        "category": "bills",
+        "merchant": "Netflix",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 3440,\n  \"category\": \"entertainment\",\n  \"merchant\": \"GPay\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Paid Rs.1093.66 to Ola via debit card",
+      "gold": {
+        "amount": 1093.66,
+        "category": "transport",
+        "merchant": "Ola",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 1093.66,\n  \"category\": \"transport\",\n  \"merchant\": \"Ola\",\n  \"payment\": \"debit\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Just paid Flipkart Rs 130 with cash",
+      "gold": {
+        "amount": 130,
+        "category": "shopping",
+        "merchant": "Flipkart",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 130,\n  \"category\": \"food\",\n  \"merchant\": \"Flipkart\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Netflix: Rs.4170 (cash)",
+      "gold": {
+        "amount": 4170,
+        "category": "bills",
+        "merchant": "Netflix",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 4170,\n  \"category\": \"food\",\n  \"merchant\": \"Netflix\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Please log an expense of Rs.2650 on 1mg, payment method PhonePe",
+      "gold": {
+        "amount": 2650,
+        "category": "health",
+        "merchant": "1mg",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 2650,\n  \"category\": \"food\",\n  \"merchant\": \"PhonePe\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Please log an expense of ₹3140 on Netflix, payment method UPI",
+      "gold": {
+        "amount": 3140,
+        "category": "bills",
+        "merchant": "Netflix",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 3140,\n  \"category\": \"transport\",\n  \"merchant\": \"Netflix\",\n  \"payment\": \"UPI\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Spent 4790 rupees at Jio using my card",
+      "gold": {
+        "amount": 4790,
+        "category": "bills",
+        "merchant": "Jio",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 4790,\n  \"category\": \"shopping\",\n  \"merchant\": \"Jio\",\n  \"payment\": \"card\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Just paid Haldiram's Rs.3020 with PhonePe",
+      "gold": {
+        "amount": 3020,
+        "category": "food",
+        "merchant": "Haldiram's",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 3020,\n  \"category\": \"shopping\",\n  \"merchant\": \"Haldiram\",\n  \"payment\": \"PhonePe\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Just paid BookMyShow ₹2460 with my card",
+      "gold": {
+        "amount": 2460,
+        "category": "entertainment",
+        "merchant": "BookMyShow",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 2460,\n  \"category\": \"shopping\",\n  \"merchant\": \"BookMyShow\",\n  \"payment\": \"card\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "1mg: ₹2712.68 (debit card)",
+      "gold": {
+        "amount": 2712.68,
+        "category": "health",
+        "merchant": "1mg",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 1,\n  \"category\": \"food\",\n  \"merchant\": \"debit card\",\n  \"payment\": \"cash\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "I bought something from Vi for 1274.63 rupees, paid by PhonePe",
+      "gold": {
+        "amount": 1274.63,
+        "category": "bills",
+        "merchant": "Vi",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 1274.63,\n  \"category\": \"shopping\",\n  \"merchant\": \"Vi\",\n  \"payment\": \"PhonePe\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Just paid Cult.fit 3410 rupees with credit card",
+      "gold": {
+        "amount": 3410,
+        "category": "health",
+        "merchant": "Cult.fit",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 3410,\n  \"category\": \"shopping\",\n  \"merchant\": \"Cult.fit\",\n  \"payment\": \"credit_card\"\n}",
+      "style": "seen"
+    },
+    {
+      "input": "Note down - GPay payment, ₹2630, merchant BookMyShow",
+      "gold": {
+        "amount": 2630,
+        "category": "entertainment",
+        "merchant": "BookMyShow",
+        "payment": "upi"
+      },
+      "raw_output": "```json\n{\n  \"amount\": 2630,\n  \"category\": \"transport\",\n  \"merchant\": \"BookMyShow\",\n  \"payment\": \"GPay\"\n}\n```",
+      "style": "unseen"
+    },
+    {
+      "input": "debit card se Flipkart pe ₹1360 kharch kiye",
+      "gold": {
+        "amount": 1360,
+        "category": "shopping",
+        "merchant": "Flipkart",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 1360,\n  \"category\": \"food\",\n  \"merchant\": \"Flipkart\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Spotify bill came to 2330 rupees and I cleared it using my card",
+      "gold": {
+        "amount": 2330,
+        "category": "entertainment",
+        "merchant": "Spotify",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 2330,\n  \"category\": \"bills\",\n  \"merchant\": \"Spotify\",\n  \"payment\": \"card\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "UPI se Flipkart pe 2588.8 rupees kharch kiye",
+      "gold": {
+        "amount": 2588.8,
+        "category": "shopping",
+        "merchant": "Flipkart",
+        "payment": "upi"
+      },
+      "raw_output": "{\n    \"amount\": 2588.8,\n    \"category\": \"transport\",\n    \"merchant\": \"Flipkart\",\n    \"payment\": \"UPI\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Metro bill came to Rs.1250.58 and I cleared it using in cash",
+      "gold": {
+        "amount": 1250.58,
+        "category": "transport",
+        "merchant": "Metro",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 1250.58,\n  \"category\": \"bills\",\n  \"merchant\": \"metro\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Note down - my card payment, 3k, merchant Cult.fit",
+      "gold": {
+        "amount": 3000,
+        "category": "health",
+        "merchant": "Cult.fit",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 3000,\n  \"category\": \"shopping\",\n  \"merchant\": \"Cult.fit\",\n  \"payment\": \"card\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Settled my IRCTC dues: Rs 1390. Mode: my card",
+      "gold": {
+        "amount": 1390,
+        "category": "transport",
+        "merchant": "IRCTC",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 1390,\n  \"category\": \"bills\",\n  \"merchant\": \"my card\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "GPay se Airtel pe ₹1660 kharch kiye",
+      "gold": {
+        "amount": 1660,
+        "category": "bills",
+        "merchant": "Airtel",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 1660,\n  \"category\": \"transport\",\n  \"merchant\": \"GPay\",\n  \"payment\": \"Airtel\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Note down - PhonePe payment, 2577.9 rupees, merchant PVR",
+      "gold": {
+        "amount": 2577.9,
+        "category": "entertainment",
+        "merchant": "PVR",
+        "payment": "upi"
+      },
+      "raw_output": "```json\n{\n  \"amount\": 2577.9,\n  \"category\": \"food\",\n  \"merchant\": \"PVR\",\n  \"payment\": \"phonepe\"\n}\n```",
+      "style": "unseen"
+    },
+    {
+      "input": "Settled my Amazon dues: Rs 2410. Mode: PhonePe",
+      "gold": {
+        "amount": 2410,
+        "category": "shopping",
+        "merchant": "Amazon",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 2410,\n  \"category\": \"bills\",\n  \"merchant\": \"Amazon\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "PhonePe se Metro pe ₹556.15 kharch kiye",
+      "gold": {
+        "amount": 556.15,
+        "category": "transport",
+        "merchant": "Metro",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 556.15,\n  \"category\": \"transport\",\n  \"merchant\": \"Metro\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Note down - UPI payment, Rs.3550, merchant Zomato",
+      "gold": {
+        "amount": 3550,
+        "category": "food",
+        "merchant": "Zomato",
+        "payment": "upi"
+      },
+      "raw_output": "```json\n{\n  \"amount\": 3550,\n  \"category\": \"transport\",\n  \"merchant\": \"Zomato\",\n  \"payment\": \"UPI\"\n}\n```",
+      "style": "unseen"
+    },
+    {
+      "input": "UPI se Rapido pe ₹3220 kharch kiye",
+      "gold": {
+        "amount": 3220,
+        "category": "transport",
+        "merchant": "Rapido",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 3220,\n  \"category\": \"transport\",\n  \"merchant\": \"UPI\",\n  \"payment\": \"upi\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "my card se Spotify pe ₹4950 kharch kiye",
+      "gold": {
+        "amount": 4950,
+        "category": "entertainment",
+        "merchant": "Spotify",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 4950,\n  \"category\": \"shopping\",\n  \"merchant\": \"Spotify\",\n  \"payment\": \"card\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "PhonePe se Spotify pe Rs 1950.76 kharch kiye",
+      "gold": {
+        "amount": 1950.76,
+        "category": "entertainment",
+        "merchant": "Spotify",
+        "payment": "upi"
+      },
+      "raw_output": "{\n    \"amount\": 1950.76,\n    \"category\": \"entertainment\",\n    \"merchant\": \"Spotify\",\n    \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "gave PharmEasy ₹4840 yesterday, through GPay",
+      "gold": {
+        "amount": 4840,
+        "category": "health",
+        "merchant": "PharmEasy",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 4840,\n  \"category\": \"food\",\n  \"merchant\": \"PharmEasy\",\n  \"payment\": \"GPay\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Note down - GPay payment, 350 rupees, merchant Amazon",
+      "gold": {
+        "amount": 350,
+        "category": "shopping",
+        "merchant": "Amazon",
+        "payment": "upi"
+      },
+      "raw_output": "```json\n{\n  \"amount\": 350,\n  \"category\": \"food\",\n  \"merchant\": \"Amazon\",\n  \"payment\": \"GPay\"\n}\n```",
+      "style": "unseen"
+    },
+    {
+      "input": "IRCTC bill came to Rs.617.99 and I cleared it using in cash",
+      "gold": {
+        "amount": 617.99,
+        "category": "transport",
+        "merchant": "IRCTC",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 617.99,\n  \"category\": \"bills\",\n  \"merchant\": \"IRCTC\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Settled my Cult.fit dues: Rs 2250. Mode: cash",
+      "gold": {
+        "amount": 2250,
+        "category": "health",
+        "merchant": "Cult.fit",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 2250,\n  \"category\": \"dues\",\n  \"merchant\": \"Cult.fit\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "PhonePe se Apollo Pharmacy pe ₹220 kharch kiye",
+      "gold": {
+        "amount": 220,
+        "category": "health",
+        "merchant": "Apollo Pharmacy",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 220,\n  \"category\": \"shopping\",\n  \"merchant\": \"Apollo Pharmacy\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "UPI se PVR pe ₹463.59 kharch kiye",
+      "gold": {
+        "amount": 463.59,
+        "category": "entertainment",
+        "merchant": "PVR",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 463.59,\n  \"category\": \"transport\",\n  \"merchant\": \"UPI\",\n  \"payment\": \"upi\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Settled my Cult.fit dues: ₹2715.76. Mode: UPI",
+      "gold": {
+        "amount": 2715.76,
+        "category": "health",
+        "merchant": "Cult.fit",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 2715.76,\n  \"category\": \"bills\",\n  \"merchant\": \"Cult.fit\",\n  \"payment\": \"UPI\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Settled my Cult.fit dues: ₹3770. Mode: GPay",
+      "gold": {
+        "amount": 3770,
+        "category": "health",
+        "merchant": "Cult.fit",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 3770,\n  \"category\": \"bills\",\n  \"merchant\": \"GPay\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Note down - PhonePe payment, 1456.56 rupees, merchant Uber",
+      "gold": {
+        "amount": 1456.56,
+        "category": "transport",
+        "merchant": "Uber",
+        "payment": "upi"
+      },
+      "raw_output": "```json\n{\n  \"amount\": 1456.56,\n  \"category\": \"transport\",\n  \"merchant\": \"Uber\",\n  \"payment\": \"phonepe\"\n}\n```",
+      "style": "unseen"
+    },
+    {
+      "input": "Note down - UPI payment, ₹2877.3, merchant Practo",
+      "gold": {
+        "amount": 2877.3,
+        "category": "health",
+        "merchant": "Practo",
+        "payment": "upi"
+      },
+      "raw_output": "```json\n{\n  \"amount\": 2877.3,\n  \"category\": \"transport\",\n  \"merchant\": \"Practo\",\n  \"payment\": \"UPI\"\n}\n```",
+      "style": "unseen"
+    },
+    {
+      "input": "PVR bill came to Rs 884.08 and I cleared it using in cash",
+      "gold": {
+        "amount": 884.08,
+        "category": "entertainment",
+        "merchant": "PVR",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 884.08,\n  \"category\": \"bills\",\n  \"merchant\": \"cash\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "PhonePe se BookMyShow pe Rs.3610 kharch kiye",
+      "gold": {
+        "amount": 3610,
+        "category": "entertainment",
+        "merchant": "BookMyShow",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 3610,\n  \"category\": \"transport\",\n  \"merchant\": \"PhonePe se BookMyShow\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Practo bill came to Rs 1325.19 and I cleared it using UPI",
+      "gold": {
+        "amount": 1325.19,
+        "category": "health",
+        "merchant": "Practo",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 1325.19,\n  \"category\": \"bills\",\n  \"merchant\": \"UPI\",\n  \"payment\": \"upi\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "gave Steam ₹1770 yesterday, through cash",
+      "gold": {
+        "amount": 1770,
+        "category": "entertainment",
+        "merchant": "Steam",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 1770,\n  \"category\": \"food\",\n  \"merchant\": \"Steam\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "credit card se Barista pe ₹210.59 kharch kiye",
+      "gold": {
+        "amount": 210.59,
+        "category": "food",
+        "merchant": "Barista",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 210.59,\n  \"category\": \"food\",\n  \"merchant\": \"Barista\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Note down - credit card payment, Rs.1080, merchant Vi",
+      "gold": {
+        "amount": 1080,
+        "category": "bills",
+        "merchant": "Vi",
+        "payment": "card"
+      },
+      "raw_output": "```json\n{\n  \"amount\": 1080,\n  \"category\": \"transport\",\n  \"merchant\": \"Vi\",\n  \"payment\": \"credit card\"\n}\n```",
+      "style": "unseen"
+    },
+    {
+      "input": "Note down - UPI payment, Rs 1736.38, merchant Cult.fit",
+      "gold": {
+        "amount": 1736.38,
+        "category": "health",
+        "merchant": "Cult.fit",
+        "payment": "upi"
+      },
+      "raw_output": "```json\n{\n  \"amount\": 1736.38,\n  \"category\": \"transport\",\n  \"merchant\": \"Cult.fit\",\n  \"payment\": \"UPI\"\n}\n```",
+      "style": "unseen"
+    },
+    {
+      "input": "Uber bill came to 660 rupees and I cleared it using credit card",
+      "gold": {
+        "amount": 660,
+        "category": "transport",
+        "merchant": "Uber",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 660,\n  \"category\": \"transport\",\n  \"merchant\": \"Uber\",\n  \"payment\": \"credit_card\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Settled my Jio dues: Rs 2290. Mode: debit card",
+      "gold": {
+        "amount": 2290,
+        "category": "bills",
+        "merchant": "Jio",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 2290,\n  \"category\": \"bills\",\n  \"merchant\": \"Jio\",\n  \"payment\": \"debit card\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Settled my Cult.fit dues: 3320 rupees. Mode: credit card",
+      "gold": {
+        "amount": 3320,
+        "category": "health",
+        "merchant": "Cult.fit",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 3320,\n  \"category\": \"entertainment\",\n  \"merchant\": \"credit card\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "gave Netflix Rs 132.11 yesterday, through cash",
+      "gold": {
+        "amount": 132.11,
+        "category": "bills",
+        "merchant": "Netflix",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 132.11,\n  \"category\": \"food\",\n  \"merchant\": \"Netflix\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "BookMyShow bill came to Rs 70 and I cleared it using debit card",
+      "gold": {
+        "amount": 70,
+        "category": "entertainment",
+        "merchant": "BookMyShow",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 70,\n  \"category\": \"bills\",\n  \"merchant\": \"bookmyshow\",\n  \"payment\": \"debit\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "gave Haldiram's Rs 2960.61 yesterday, through in cash",
+      "gold": {
+        "amount": 2960.61,
+        "category": "food",
+        "merchant": "Haldiram's",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 2960.61,\n  \"category\": \"food\",\n  \"merchant\": \"Haldiram\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "gave PharmEasy Rs 4120 yesterday, through UPI",
+      "gold": {
+        "amount": 4120,
+        "category": "health",
+        "merchant": "PharmEasy",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 4120,\n  \"category\": \"shopping\",\n  \"merchant\": \"PharmEasy\",\n  \"payment\": \"UPI\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Jio bill came to 1910 rupees and I cleared it using cash",
+      "gold": {
+        "amount": 1910,
+        "category": "bills",
+        "merchant": "Jio",
+        "payment": "cash"
+      },
+      "raw_output": "{\n  \"amount\": 1910,\n  \"category\": \"bills\",\n  \"merchant\": \"cash\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "PhonePe se Tata Power pe ₹2280.06 kharch kiye",
+      "gold": {
+        "amount": 2280.06,
+        "category": "bills",
+        "merchant": "Tata Power",
+        "payment": "upi"
+      },
+      "raw_output": "{\n  \"amount\": 2280.06,\n  \"category\": \"transport\",\n  \"merchant\": \"Tata Power\",\n  \"payment\": \"cash\"\n}",
+      "style": "unseen"
+    },
+    {
+      "input": "Settled my Apollo Pharmacy dues: Rs.190. Mode: credit card",
+      "gold": {
+        "amount": 190,
+        "category": "health",
+        "merchant": "Apollo Pharmacy",
+        "payment": "card"
+      },
+      "raw_output": "{\n  \"amount\": 190,\n  \"category\": \"bills\",\n  \"merchant\": \"Apollo Pharmacy\",\n  \"payment\": \"credit card\"\n}",
+      "style": "unseen"
+    }
+  ],
+  "finetuned": [
+    {
+      "input": "Note down - my card payment, 3k, merchant Cult.fit",
+      "gold": {
+        "amount": 3000,
+        "category": "health",
+        "merchant": "Cult.fit",
+        "payment": "card"
+      },
+      "raw_output": "{\"amount\":300,\"category\":\"health\",\"merchant\":\"Cult.fit\",\"payment\":\"card\"}",
+      "style": "unseen"
+    }
+  ]
+}
